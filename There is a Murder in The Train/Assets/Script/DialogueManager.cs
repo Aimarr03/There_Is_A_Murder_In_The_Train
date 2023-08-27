@@ -9,10 +9,12 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> dialogueChat;
     [SerializeField] private TextMeshProUGUI characterName;
     [SerializeField] private TextMeshProUGUI characterChat;
+    private AudioSource audioManager;
     public static DialogueManager Instance { get; private set; }
     // Start is called before the first frame update
     private void Awake()
     {
+        audioManager = GetComponent<AudioSource>();
         Instance = this;
         dialogueChat = new Queue<string>();
     }
@@ -41,15 +43,18 @@ public class DialogueManager : MonoBehaviour
 
             return;
         }
+        audioManager.Play();
         string currentDialogue = dialogueChat.Dequeue();
         StartCoroutine(DisplaySentence(currentDialogue));
     }
     IEnumerator DisplaySentence(string currentSentence)
     {
+        
         foreach(char character in currentSentence.ToCharArray())
         {
             characterChat.text += character;
             yield return new WaitForFixedUpdate();
         }
+        audioManager.Stop();
     }
 }
