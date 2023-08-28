@@ -31,7 +31,8 @@ public class Controller : MonoBehaviour
             {
                 if (dialogueBox.IsLastSentence())
                 {
-                    this.ShowHide(false);
+                    currentScene = null;
+                    Destroy(gameObject);
                 }
                 else
                 {
