@@ -932,6 +932,7 @@ GameObject:
   - component: {fileID: 1433488283}
   - component: {fileID: 1433488282}
   - component: {fileID: 1433488284}
+  - component: {fileID: 1433488285}
   m_Layer: 5
   m_Name: DialogueTemplate
   m_TagString: Untagged
@@ -1006,7 +1007,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433488280}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe3c8db22b1bd794cbca0e2fa1ac2ccc, type: 3}
   m_Name: 
@@ -1019,6 +1020,20 @@ MonoBehaviour:
       klik kembali
     - Ini adalah dialog terakhir aku, terima kasih telah memencet tombol ini dan
       semoga aku bisa membantu
+--- !u!114 &1433488285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433488280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b9115de6bd96b45b69f6ca1233d839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainText: {fileID: 424519041}
+  NameText: {fileID: 930640323}
 --- !u!1 &1634876810
 GameObject:
   m_ObjectHideFlags: 0

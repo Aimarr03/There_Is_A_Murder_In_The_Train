@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f160ed8aa135b0b4d9c3fce6d5a1ac8d, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I awake to see myself in a contained space and a constantly moving scenery
+      outside a window.
+    speaker: {fileID: 11400000, guid: ac22421785f050843a9134c657d4f923, type: 2}
+  - text: Ah, how could I forget. I am on a train
+    speaker: {fileID: 11400000, guid: ac22421785f050843a9134c657d4f923, type: 2}
+  nextScene: {fileID: 0}
