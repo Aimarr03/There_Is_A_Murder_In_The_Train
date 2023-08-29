@@ -12,9 +12,16 @@ public class DialogueInitiator : MonoBehaviour
     public GameObject textBox;    
     public DialogueController textCon;
     public void Initiated(){
+        if(number >= heldDialogue.Count) 
+        {
+            number--;
+        }
+        else{
         currentHold = heldDialogue[number];
         var newText = Instantiate(textBox);
         textCon.ChangeDialogue(currentHold);
+        number++;
+        }
     }   
 } 
 
