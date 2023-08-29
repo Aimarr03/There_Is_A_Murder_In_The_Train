@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f160ed8aa135b0b4d9c3fce6d5a1ac8d, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
-  sentences: []
+  sentences:
+  - text: aaaaa
+    speaker: {fileID: 11400000, guid: f2dc24917be93fa4a868014467d1e44a, type: 2}
