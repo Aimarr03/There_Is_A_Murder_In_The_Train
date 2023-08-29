@@ -42,6 +42,10 @@ public class DialogueController : MonoBehaviour
                     dialogueBox.PlayNextSentence();
                 }
             }
+            else
+            {
+
+            }
         }
     }
 }

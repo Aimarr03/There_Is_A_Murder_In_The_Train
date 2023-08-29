@@ -50,12 +50,17 @@ public class ManagerDialogue : MonoBehaviour
         while (state != State.COMPLETED)
         {
             mainText.text += text[wordIndex];
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.02f);
             if(++wordIndex == text.Length)
             {
                 state = State.COMPLETED;
                 break;
             }
         }
+    }
+    public void FastForwardTypeText()
+    {
+        StopCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
+        mainText.text = currentScene.sentences[sentenceIndex].text;
     }
 }
