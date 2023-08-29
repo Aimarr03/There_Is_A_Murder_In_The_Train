@@ -1,0 +1,26 @@
+Agenda pertemuan hari Senin 28 Agustus 2023:
+Ngomongin desain game yang sudah dirancang dari awal sampe akhir
+Interior Props:
+-Sofa ruang tamu kereta
+-Sofa ruang restorasi kereta
+-Meja ruang tamu kereta 
+-Meja ruang restorasi kereta
+-Dapur kereta 
+-Lantai ruang tamu kereta
+-Tembok
+Bagaimana mendesain algoritma agar lebih jelas dalam implementasinya
+
+How to make multiple ending:
+Bikin enum untuk mengindikasikan berapa banyak suspek yang bisa dituduh
+status itu bergantung pada jumlah clue yang diperoleh
+
+Clue yang didapat akan disetor dalam buku yang memuat clue yang telah diperoleh
+Urutan clue berdasarkan kapan terperolehnya
+
+Clue akan dibuat dalam bentuk scriptable object dimana ia terdiri dari headline 
+
+Untuk membuat dialog dan data yang besar tersebut, dibikin Sriptable Object
+
+*Choice
+
+*C
