@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 1375840066419635871}
   - component: {fileID: 1252265931087791079}
   - component: {fileID: 7622539104253993849}
-  - component: {fileID: 3893940713078840909}
+  - component: {fileID: 5635558700116606524}
   m_Layer: 5
   m_Name: DialogueCanvas
   m_TagString: Untagged
@@ -238,7 +238,7 @@ RectTransform:
   m_GameObject: {fileID: 2602889891399877843}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4614583, y: 0.4614583, z: 0.4614583}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6530462192509545194}
@@ -246,8 +246,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 442.99997, y: 195.4}
+  m_SizeDelta: {x: 1920, y: 846}
   m_Pivot: {x: 0, y: 0}
 --- !u!223 &763914789654210194
 Canvas:
@@ -324,7 +324,7 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &3893940713078840909
+--- !u!114 &5635558700116606524
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -336,7 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6360d6e9a4b4a5d40879e080bfca5f9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 0}
+  currentScene: {fileID: 11400000, guid: 430ed8f1e04ca0a4ca524054e72329c6, type: 2}
   dialogueBox: {fileID: 7647559668230287463}
 --- !u!1 &6956789332030700744
 GameObject:
@@ -510,7 +510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.6761, y: -352.1447}
+  m_AnchoredPosition: {x: -10.676086, y: -352.1447}
   m_SizeDelta: {x: 1695.2244, y: 322.621}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1731896696689635781

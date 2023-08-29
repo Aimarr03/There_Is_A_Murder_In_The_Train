@@ -2,16 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewDialogue", menuName = "Data/New Dialogue Initiator")]
+// [CreateAssetMenu(fileName = "NewDialogue", menuName = "Data/New Dialogue Initiator")]
 [System.Serializable]
-public class DialogueInitiator : ScriptableObject 
+public class DialogueInitiator : MonoBehaviour 
 {
-    public SceneDialogue heldDialogue;
+    public List<SceneDialogue> heldDialogue;
+    protected SceneDialogue currentHold;
+    private int number = 0;
     public GameObject textBox;    
-    // public void Initiated(){
-    //     var newText = Instantiate(textBox);
-    //     newText.transform.SetParent(gameObject);
-    // }   
+    public DialogueController textCon;
+    public void Initiated(){
+        currentHold = heldDialogue[number];
+        var newText = Instantiate(textBox);
+        textCon.ChangeDialogue(currentHold);
+    }   
 } 
 
     

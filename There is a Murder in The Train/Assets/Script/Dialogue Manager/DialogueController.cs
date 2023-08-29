@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Controller : MonoBehaviour
+public class DialogueController : MonoBehaviour
 {
     public SceneDialogue currentScene;
     public ManagerDialogue dialogueBox;
@@ -13,6 +13,9 @@ public class Controller : MonoBehaviour
         canvasGroup.alpha = visible ? 1f : 0f; 
         canvasGroup.blocksRaycasts = visible ? true : false; 
         canvasGroup.interactable = visible ? true : false; 
+    }
+    public void ChangeDialogue(SceneDialogue scene){
+        currentScene = scene;
     }
 
     void Start()

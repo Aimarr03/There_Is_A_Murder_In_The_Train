@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f160ed8aa135b0b4d9c3fce6d5a1ac8d, type: 3}
   m_Name: NewDialogueScene
   m_EditorClassIdentifier: 
-  sentences: []
+  sentences:
+  - text: Test
+    speaker: {fileID: 11400000, guid: ac22421785f050843a9134c657d4f923, type: 2}
