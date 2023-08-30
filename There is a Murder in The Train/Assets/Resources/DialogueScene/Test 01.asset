@@ -36,3 +36,5 @@ MonoBehaviour:
   characterInvolved:
   - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
   - {fileID: 11400000, guid: 993f337de84ed3846b8d72bdc77862a5, type: 2}
+  clue:
+  - {fileID: 11400000, guid: f2c97513498e3e04296417370309cded, type: 2}

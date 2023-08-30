@@ -12,7 +12,7 @@ public class Testing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (!DialogueManager.instance.LastConversation())
             {
@@ -33,5 +33,10 @@ public class Testing : MonoBehaviour
             Debug.Log(DialogueManager.instance.indexConversation);
             Debug.Log(DialogueManager.instance.indexLine);
         }
+        if(Input.GetMouseButtonUp(1)) 
+        {
+            ClueManager.instance.checkClue();
+        }
     }
+
 }

@@ -36,6 +36,7 @@ public class DialogueManager : MonoBehaviour
     {
         indexConversation = -1;
         currentDialogueScene = dialogue;
+        Debug.Log(currentDialogueScene.ClueProvided());
         foreach(Character characterInvolved in currentDialogueScene.characterInvolved)
         {
             CharacterManager.instance.AddCharacter(characterInvolved);
@@ -67,7 +68,14 @@ public class DialogueManager : MonoBehaviour
     public bool LastConversation()
     {
         bool lastConversation = indexConversation + 1 == currentDialogueScene.entries.Count;
-        if (lastConversation) HideUI();
+        if (lastConversation) 
+        {
+            HideUI();
+            if (currentDialogueScene.ClueProvided())
+            {
+                ClueManager.instance.AddClue(currentDialogueScene.clue);
+            }
+        }
         return lastConversation;
     }
     public void HideUI()
