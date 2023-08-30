@@ -5,22 +5,15 @@ using UnityEngine.UI;
 
 public class NPCInteract : MonoBehaviour
 {
-    [SerializeField] Button characterButton;
-    void Start()
+    [SerializeField] LayerMask playerLayer;
+    private bool Touched()
     {
-        characterButton.interactable = false;
+        return Physics2D.OverlapBox(transform.position, transform.localScale * 2, 0f, playerLayer);
     }
-
-    void OnTriggerExit(Collider other)
+    void OnMouseDown()
     {
-        characterButton.interactable = false;
-    }
-    void OnTriggerEnter(Collider other)
-    {
-        characterButton.interactable = true;
-    }
-    public void HeClick()
-    {
+        if (Touched())
         Destroy(gameObject);
     }
+
 }
