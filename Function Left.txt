@@ -1,0 +1,40 @@
+1. Dialogue Interaction:
+
+Implement a system to trigger dialogue interactions when the player interacts with characters or objects.
+Use the existing dialogue manager to display the relevant dialogue.
+2. Clues Integration:
+
+Extend your dialogue system to allow the addition of clues during conversations.
+When a clue-related dialogue is displayed, automatically add the clue to the clue log.
+3. Clue Log Management:
+
+Create a system to manage the clue log.
+Organize clues based on the time obtained (you can use timestamps or in-game time).
+4. Player Choices:
+
+Enhance your dialogue manager to support player choices.
+Implement branching dialogues based on player choices.
+5. Automatic Dialogue:
+
+Set up automatic dialogues triggered by reaching specific clues or events.
+Use the dialogue manager to handle these special sequences.
+6. Dynamic Dialogue Events:
+
+Create a dialogue event manager that controls changes in character dialogues based on game events.
+Implement the logic to load the appropriate dialogue based on these events.
+7. Changing Areas:
+
+Implement a system that simulates changing areas within the same scene.
+Use transitions and visual/audio effects to make the change feel seamless.
+8. Prioritize and Scope:
+
+Prioritize features based on their importance to the core gameplay and story.
+Focus on implementing the core mechanics and main story path first.
+9. Iterate and Simplify:
+
+Start with simpler versions of each feature and iterate to enhance them later if time permits.
+If a feature becomes too complex, consider simplifying it to meet the deadline.
+10. Testing and Polishing:
+
+Regularly playtest your game to identify bugs and gameplay issues.
+Allocate time for bug fixing, polishing, and adjusting gameplay balance.

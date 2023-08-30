@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b09445779579eaf4da0f327957be9b93, type: 3}
-  m_Name: Clue 01
+  m_Name: Clue 02
   m_EditorClassIdentifier: 
   index: 0
-  clueHighlight: This guy is a menace
+  clueHighlight: What
   clueParagraphs:
-  - What the hell is this guy doing
-  - He is such a pervert!
-  clueImage: {fileID: 21300000, guid: 8ada907182b7d8a45a1716a92d090c4e, type: 3}
+  - "HUH\t"
+  - The fuck
+  clueImage: {fileID: 21300000, guid: 532137a1477f9e84bba0554211cc191d, type: 3}

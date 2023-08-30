@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class DialogueManager : MonoBehaviour
     private Dialogue.DialogueEntry currentDialogueEntry;
     public int indexConversation = -1;
     public int indexLine = -1;
+    private bool done;
 
     public static DialogueManager instance;
     public void Awake()
@@ -34,6 +36,7 @@ public class DialogueManager : MonoBehaviour
 
     public void ChangeDialog(Dialogue dialogue)
     {
+        done = false;
         indexConversation = -1;
         currentDialogueScene = dialogue;
         Debug.Log(currentDialogueScene.ClueProvided());
@@ -70,6 +73,7 @@ public class DialogueManager : MonoBehaviour
         bool lastConversation = indexConversation + 1 == currentDialogueScene.entries.Count;
         if (lastConversation) 
         {
+            done = true;
             HideUI();
             if (currentDialogueScene.ClueProvided())
             {
@@ -96,5 +100,9 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForFixedUpdate();
             wordIndex++;
         }
+    }
+    public bool GetDoneCondition()
+    {
+        return done;
     }
 }

@@ -12,6 +12,14 @@ public class Testing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(DialogueManager.instance.GetDoneCondition())
+        {
+            ClueManager.instance.ClueButton.gameObject.SetActive(true);
+        }
+        else
+        {
+            ClueManager.instance.ClueButton.gameObject.SetActive(false);
+        }
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (!DialogueManager.instance.LastConversation())

@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class ClueManager : MonoBehaviour
 {
-    //[SerializeField] private Image ClueButton;
+    public Transform ClueButton;
     //[SerializeField] Transform ClueManagerUI;
-    public List<Clue> ClueObtained = new List<Clue>();
+    private List<Clue> ClueObtained = new List<Clue>();
 
     public static ClueManager instance;
     public void Awake()
@@ -40,5 +40,9 @@ public class ClueManager : MonoBehaviour
                 Debug.Log(line);
             }
         }
+    }
+    public List<Clue> GetClueList()
+    {
+        return ClueObtained;
     }
 }

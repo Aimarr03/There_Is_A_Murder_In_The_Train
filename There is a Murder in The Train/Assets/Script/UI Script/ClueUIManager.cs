@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class ClueUIManager : MonoBehaviour
 {
     [SerializeField] GameObject ClueManagerUI;
+    [SerializeField] ClueHighlightUIManager clueHighlightUI;
     public bool isClueManagerUIOpen = false;
     public void Start()
     {
@@ -30,6 +31,7 @@ public class ClueUIManager : MonoBehaviour
     {
         Debug.Log("Testing");
         isClueManagerUIOpen=true;
+        clueHighlightUI.UpdateVisual();
         ClueManagerUI.SetActive(true);
     }
     public void CloseUI()
