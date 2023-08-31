@@ -45,4 +45,8 @@ public class ClueManager : MonoBehaviour
     {
         return ClueObtained;
     }
+    public void SetClueButtonVisibility(bool condition)
+    {
+        ClueButton.gameObject.SetActive(condition);
+    }
 }

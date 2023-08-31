@@ -135,4 +135,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 1
+  dialogue: {fileID: 11400000, guid: 2859f3582add8ff43b6d41f5215da3c5, type: 2}
