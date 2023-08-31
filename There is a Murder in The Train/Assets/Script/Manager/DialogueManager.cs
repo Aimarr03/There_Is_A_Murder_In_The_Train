@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private RectTransform characterPanel;
     [SerializeField] private Image characterRenderer;
     [SerializeField] private Transform UIPanel;
+    [SerializeField] private Button ContinueButton;
 
     private Dialogue.DialogueEntry currentDialogueEntry;
     public int indexConversation = -1;
@@ -22,6 +23,8 @@ public class DialogueManager : MonoBehaviour
     public static DialogueManager instance;
     public void Awake()
     {
+        ContinueButton.gameObject.SetActive(false);
+        HideUI();
         // Singleton pattern to ensure only one instance exists
         if (instance == null)
         {
@@ -36,9 +39,13 @@ public class DialogueManager : MonoBehaviour
 
     public void ChangeDialog(Dialogue dialogue)
     {
+        ShowUI();
+        ContinueButton.gameObject.SetActive(true);
+        ClueManager.instance.SetClueButtonVisibility(false);
         done = false;
         indexConversation = -1;
         currentDialogueScene = dialogue;
+        currentDialogueScene.dialogueDone = false;
         Debug.Log(currentDialogueScene.ClueProvided());
         foreach(Character characterInvolved in currentDialogueScene.characterInvolved)
         {
@@ -73,7 +80,10 @@ public class DialogueManager : MonoBehaviour
         bool lastConversation = indexConversation + 1 == currentDialogueScene.entries.Count;
         if (lastConversation) 
         {
-            done = true;
+            ContinueButton.gameObject.SetActive(false);
+            done = lastConversation;
+            currentDialogueScene.dialogueDone = lastConversation;
+            ClueManager.instance.SetClueButtonVisibility(lastConversation);
             HideUI();
             if (currentDialogueScene.ClueProvided())
             {
@@ -85,6 +95,10 @@ public class DialogueManager : MonoBehaviour
     public void HideUI()
     {
         UIPanel.gameObject.SetActive(false);
+    }
+    public void ShowUI()
+    {
+        UIPanel.gameObject.SetActive(true);
     }
     public void PlayNextLine()
     {
@@ -104,5 +118,26 @@ public class DialogueManager : MonoBehaviour
     public bool GetDoneCondition()
     {
         return done;
+    }
+    public void LeftMouseClicked()
+    {
+        //there's more dialog
+        if (!LastConversation())
+        {
+            //not the end of the line
+            if (!LastLine())
+            {
+                PlayNextLine();
+            }
+            else
+            {
+                IncremenetConversation();
+                PlayNextDialogue();
+            }
+        }
+        else
+        {
+
+        }
     }
 }
