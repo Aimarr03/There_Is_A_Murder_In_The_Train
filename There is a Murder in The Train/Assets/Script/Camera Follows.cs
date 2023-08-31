@@ -22,7 +22,7 @@ public class CameraFollows : MonoBehaviour
     private void FixedUpdate()
     {
         Vector3 playerViewportPosition = mainCamera.WorldToViewportPoint(player.position);
-        Debug.Log(playerViewportPosition);
+        // Debug.Log(playerViewportPosition);
         bool moveable = playerViewportPosition.x > xPositiveThreshold || playerViewportPosition.x < xNegativeThreshold;
         // Check if the player is close to the corner on the x-axis
         if (moveable)

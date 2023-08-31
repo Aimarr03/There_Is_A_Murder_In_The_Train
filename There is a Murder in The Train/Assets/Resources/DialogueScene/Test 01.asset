@@ -39,4 +39,4 @@ MonoBehaviour:
   clue:
   - {fileID: 11400000, guid: f2c97513498e3e04296417370309cded, type: 2}
   - {fileID: 11400000, guid: 8bca2b8720435dc49bd0c46bfc58d90d, type: 2}
-  dialogueDone: 0
+  dialogueDone: 1

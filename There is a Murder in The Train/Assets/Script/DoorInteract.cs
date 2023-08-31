@@ -11,16 +11,39 @@ public class DoorInteract : MonoBehaviour
     [SerializeField] float x;
     [SerializeField] float y;
     [SerializeField] GameObject player;
+    [SerializeField] GameObject fadeBlack;
     private bool Touched()
     {
         return Physics2D.OverlapBox(transform.position, transform.localScale * 2, 0f, playerLayer);
     }
-    void OnMouseDown()
+    // void Update()
+    // {
+    //     if (Touched() == false)
+    //     fadeBlack.GetComponent<SpriteRenderer>().color = new Color(0,0,0,0);
+    // }
+    IEnumerator OnMouseDown()
     {
         if (Touched())
+        {
+        // fadeBlack.GetComponent<SpriteRenderer>().color = new Color(0,0,0,255);
+        StartCoroutine(FadeTo(20f,1f));
         Debug.Log(("move"));
         newPosition = new Vector2(x, y);
         player.transform.position = newPosition;
+        yield return new WaitForSeconds(0.2f);
+        StartCoroutine(FadeTo(0f,1f));
+        Debug.Log("fuck");
+        }
     }
 
+    IEnumerator FadeTo(float aValue, float aTime)
+    {
+    float alpha = fadeBlack.GetComponent<SpriteRenderer>().color.a;
+    for (float t = 0.0f; t < 1.0f; t += (Time.deltaTime / aTime))
+        {
+        Color newColor = new Color(0, 0, 0, Mathf.Lerp(alpha,aValue,t));
+        fadeBlack.GetComponent<SpriteRenderer>().color = newColor;
+        yield return null;
+        }
+    }
 }
