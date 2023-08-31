@@ -18,8 +18,13 @@ public class Dialogue : ScriptableObject
     public List<Character> characterInvolved = new List<Character>();
     public List<Clue> clue;
     public bool dialogueDone = false;
+    public bool necessaryDialogue;
     public bool ClueProvided()
     {
         return clue != null;
+    }
+    public bool GetNecessaryDialogueDone()
+    {
+        return necessaryDialogue && dialogueDone;
     }
 }

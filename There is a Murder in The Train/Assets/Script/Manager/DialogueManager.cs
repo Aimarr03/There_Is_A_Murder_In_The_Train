@@ -83,11 +83,18 @@ public class DialogueManager : MonoBehaviour
             ContinueButton.gameObject.SetActive(false);
             done = lastConversation;
             currentDialogueScene.dialogueDone = lastConversation;
-            ClueManager.instance.SetClueButtonVisibility(lastConversation);
             HideUI();
+            if (currentDialogueScene.necessaryDialogue)
+            {
+                GameManager.instance.currentNecessaryDialogueDone++;
+            }
             if (currentDialogueScene.ClueProvided())
             {
                 ClueManager.instance.AddClue(currentDialogueScene.clue);
+            }
+            if (GameManager.instance.CheckAllNecessaryDialogueDone())
+            {
+                GameManager.instance.LoadNextStorySegment();
             }
         }
         return lastConversation;
