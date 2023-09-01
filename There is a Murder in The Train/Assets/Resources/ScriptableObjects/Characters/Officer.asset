@@ -15,6 +15,12 @@ MonoBehaviour:
   characterName: Officer
   characterExpression:
   - expressionType: Happy
-    expressionImage: {fileID: 0}
-  - expressionType: Shock
-    expressionImage: {fileID: 0}
+    expressionImage: {fileID: 21300000, guid: 117b2c99487b2e743a0c15735b2b0291, type: 3}
+  - expressionType: Shout
+    expressionImage: {fileID: 21300000, guid: c4d32d4694c26c246a30a1a5d83eb1bb, type: 3}
+  - expressionType: Angry
+    expressionImage: {fileID: 21300000, guid: 7604c950f85e0c544bff9c49d02e32ac, type: 3}
+  - expressionType: Normal
+    expressionImage: {fileID: 21300000, guid: 4e72203aae5e9ad4ca1a6c34da86ca41, type: 3}
+  - expressionType: Sad
+    expressionImage: {fileID: 21300000, guid: 2ca65d13fd4156b4199139fce986eeaa, type: 3}

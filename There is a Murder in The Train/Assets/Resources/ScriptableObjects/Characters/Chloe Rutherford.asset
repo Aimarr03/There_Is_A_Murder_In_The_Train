@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 742858c3117e9ec47a58c4c6942b4a0c, type: 3}
-  m_Name: Lucas Blackwood
+  m_Name: Chloe Rutherford
   m_EditorClassIdentifier: 
-  characterName: Lucas BlackWood
+  characterName: Chloe Rutherford
   characterExpression:
   - expressionType: Happy
-    expressionImage: {fileID: 21300000, guid: 31fa58144f934084abaffcfe4223f3e5, type: 3}
+    expressionImage: {fileID: 21300000, guid: 4d049bd35a4799b458bc8304319c1329, type: 3}
   - expressionType: Shout
-    expressionImage: {fileID: 21300000, guid: d9811288898d87b45a826b88617ad55e, type: 3}
+    expressionImage: {fileID: 21300000, guid: 2eecb54fcbea4a549abf5bec71cf0ab0, type: 3}
   - expressionType: Angry
-    expressionImage: {fileID: 21300000, guid: fc0fe982f813a46489698b76206b09ac, type: 3}
+    expressionImage: {fileID: 21300000, guid: 891ba71c174d3a546b654e976e79c314, type: 3}
   - expressionType: Normal
-    expressionImage: {fileID: 21300000, guid: 6322e7169b0d8b0438a4ff0a90025744, type: 3}
+    expressionImage: {fileID: 21300000, guid: 8457f789a46970f4bb5f1e2ae5eb66a9, type: 3}
   - expressionType: Sad
-    expressionImage: {fileID: 21300000, guid: 709ccb27aef184a4aa0b099e58faa214, type: 3}
+    expressionImage: {fileID: 21300000, guid: b001a24f74e09f741a6342a51478d3e3, type: 3}

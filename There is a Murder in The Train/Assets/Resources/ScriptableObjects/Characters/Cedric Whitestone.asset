@@ -15,6 +15,12 @@ MonoBehaviour:
   characterName: Cedric Whitestone
   characterExpression:
   - expressionType: Happy
-    expressionImage: {fileID: 21300000, guid: 8ada907182b7d8a45a1716a92d090c4e, type: 3}
+    expressionImage: {fileID: 21300000, guid: 27e40e3ac7f95fa458e6e579e067d66b, type: 3}
+  - expressionType: Shout
+    expressionImage: {fileID: 21300000, guid: ceb4316053392d84a8642ededca34cbb, type: 3}
   - expressionType: Angry
-    expressionImage: {fileID: 21300000, guid: 389b3431acc5ad3458a92f08cce87499, type: 3}
+    expressionImage: {fileID: 21300000, guid: b8be4d8f53f8e0a41bbf9cc500fca22a, type: 3}
+  - expressionType: Normal
+    expressionImage: {fileID: 21300000, guid: ffa3245e15d55484bb94b202f7a4dd24, type: 3}
+  - expressionType: Sad
+    expressionImage: {fileID: 21300000, guid: f07fcf819cc751a4babeff0dbda304b2, type: 3}

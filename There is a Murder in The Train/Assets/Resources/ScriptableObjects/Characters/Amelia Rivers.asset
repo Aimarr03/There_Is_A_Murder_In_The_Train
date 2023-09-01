@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Amelia Rivers
   characterExpression:
-  - expressionType: Disgust
-    expressionImage: {fileID: 21300000, guid: 5af5d3d191489c5409b18364ea6d4f23, type: 3}
   - expressionType: Happy
-    expressionImage: {fileID: 21300000, guid: 532137a1477f9e84bba0554211cc191d, type: 3}
+    expressionImage: {fileID: 21300000, guid: b06f63047aa94d641ac07d0599a4c631, type: 3}
+  - expressionType: Shout
+    expressionImage: {fileID: 21300000, guid: a1994a858393f0c4bb475e7e2f9244f1, type: 3}
+  - expressionType: Angry
+    expressionImage: {fileID: 21300000, guid: 7b680daef6f0da24e88db870ac694cc6, type: 3}
+  - expressionType: Normal
+    expressionImage: {fileID: 21300000, guid: 2c5c0987b611684429d93c5584fbf152, type: 3}
+  - expressionType: Sad
+    expressionImage: {fileID: 21300000, guid: af9d17b2f3bbd674793162e84c9fcdfc, type: 3}
