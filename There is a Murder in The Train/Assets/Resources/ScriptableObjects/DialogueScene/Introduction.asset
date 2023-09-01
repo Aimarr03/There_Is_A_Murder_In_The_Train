@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
+  m_Name: Introduction
+  m_EditorClassIdentifier: 
+  entries:
+  - speakerName: Cedric Whitestone
+    speakerExpression: Sad
+    speakerLines:
+    - Thomas....
+    - What in the world happened?
+    - Thomas!
+  - speakerName: Chloe Rutherford
+    speakerExpression: Sad
+    speakerLines:
+    - Somebody....
+    - Somebody do Something!
+  - speakerName: Officer 01
+    speakerExpression: Normal
+    speakerLines:
+    - 'Everyone, step back! '
+    - What is the situation here?
+  - speakerName: Cedric Whitestone
+    speakerExpression: Sad
+    speakerLines:
+    - Officer..
+    - Thomas...
+    - he..
+    - He is lying on the ground, unconcious
+  - speakerName: Officer 01
+    speakerExpression: Normal
+    speakerLines:
+    - .....
+    - The victim is deceased
+  - speakerName: Officer 01
+    speakerExpression: Angry
+    speakerLines:
+    - We need to secure the area!
+  - speakerName: NPC 01
+    speakerExpression: Normal
+    speakerLines:
+    - Unbelievable
+  - speakerName: NPC 02
+    speakerExpression: Normal
+    speakerLines:
+    - What in the world could have occured here?
+  - speakerName: NPC 03
+    speakerExpression: Normal
+    speakerLines:
+    - Wait..
+    - wasn't he sitting with the victim?
+  - speakerName: NPC 04
+    speakerExpression: Normal
+    speakerLines:
+    - Could he be involved?
+  - speakerName: Cedric Whitestone
+    speakerExpression: Shout
+    speakerLines:
+    - WHAT!?
+    - That is absurd!
+    - I had nothing to do with this!
+  - speakerName: Chloe Rutherford
+    speakerExpression: Angry
+    speakerLines:
+    - 'You were sitting at the same table as him. '
+    - I had nothing to do with this!
+  - speakerName: Cedric Whitestone
+    speakerExpression: Angry
+    speakerLines:
+    - 'If that''s the case, weren''t you also here? '
+    - ' You could have witnessed everything, even if I did something.'
+  - speakerName: Chloe Rutherford
+    speakerExpression: Normal
+    speakerLines:
+    - I wasn't watching you the whole time.
+    - But given your position, you had the greatest chance to tamper with his food.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Angry
+    speakerLines:
+    - I wasn't watching you the whole time.
+    - But given your position, you had the greatest chance to tamper with his food.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Angry
+    speakerLines:
+    - 'That''s conjecture. '
+    - 'Anyone could have interfered with the food at any point, like during preparation
+      or delivery. '
+    - It's not just me who should be suspected.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Angry
+    speakerLines:
+    - 'That''s conjecture. '
+    - 'Anyone could have interfered with the food at any point, like during preparation
+      or delivery. '
+    - 'Anyone could have interfered with the food at any point, like during preparation
+      or delivery. '
+  - speakerName: Chloe Rutherford
+    speakerExpression: Normal
+    speakerLines:
+    - 'Anyone could have interfered with the food at any point, like during preparation
+      or delivery. '
+  - speakerName: Cedric Whitestone
+    speakerExpression: Angry
+    speakerLines:
+    - 'Poison can have delayed effects. '
+    - Besides...
+  - speakerName: Cedric Whitestone
+    speakerExpression: Normal
+    speakerLines:
+    - Hold on..
+    - how would you know his name is Thomas?
+    - ' And how could you be certain that he died of poison?'
+  - speakerName: Chloe Rutherford
+    speakerExpression: Normal
+    speakerLines:
+    - You were shouting his name when you found him collapsed and poisoned seemed
+      more logical!
+  - speakerName: Cedric Whitestone
+    speakerExpression: Normal
+    speakerLines:
+    - Amidst chaos, recalling a name seems unlikely.
+    - ' How well do you really know Thomas? '
+    - Are you attempting to shift the blame onto me?
+  - speakerName: Chloe Rutherford
+    speakerExpression: Shout
+    speakerLines:
+    - 'Preposterous, I say! '
+    - I have no prior connection to this Thomas. We're not acquainted in any way."
+  - speakerName: Cedric Whitestone
+    speakerExpression: Normal
+    speakerLines:
+    - '"In any way"?'
+  - speakerName: Chloe Rutherford
+    speakerExpression: Shout
+    speakerLines:
+    - "I've told you, I haven\u2019t the slightest idea who he\u2019s supposed to
+      be!"
+  - speakerName: Officer 01
+    speakerExpression: Normal
+    speakerLines:
+    - 'Calm down, everyone! '
+    - "Fighting amongst yourselves won\u2019t take us anywhere."
+  - speakerName: Officer 02
+    speakerExpression: Normal
+    speakerLines:
+    - "Fighting amongst yourselves won\u2019t take us anywhere."
+  - speakerName: NPC 03
+    speakerExpression: Normal
+    speakerLines:
+    - Poison? How could that even happen?
+  - speakerName: NPC 04
+    speakerExpression: Normal
+    speakerLines:
+    - I can't believe something like this could occur in Elysia.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Normal
+    speakerLines:
+    - It truly could be due to poison? Then how did she-
+  - speakerName: Officer 02
+    speakerExpression: Normal
+    speakerLines:
+    - In order to ascertain the cause of death, an autopsy will be conducted
+  - speakerName: Officer 02
+    speakerExpression: Normal
+    speakerLines:
+    - We will also be speaking to everyone who was present in this car, especially
+      those involved.
+  - speakerName: Officer 02
+    speakerExpression: Normal
+    speakerLines:
+    - Mr. Cedric Whitestone, be prepared to provide your statement.
+    - Miss Chloe Rutherford, given the circumstances, we'll need your account as
+      well.
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - 'This situation doesn''t sit right. '
+    - 'From the too-clear clues to the timing of the victim''s restroom visit and
+      Chloe''s behavior, '
+    - there's something lurking beneath. I wonder what deeper truth lies beneath
+      the surface...
+  characterInvolved:
+  - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
+  - {fileID: 11400000, guid: 993f337de84ed3846b8d72bdc77862a5, type: 2}
+  - {fileID: 11400000, guid: 0358648bdb3899f40be6a1dc45890e59, type: 2}
+  - {fileID: 11400000, guid: 0ad991b17b29190409adde77a6706666, type: 2}
+  - {fileID: 11400000, guid: 0f6fdf41b3537404e884de72d1826f17, type: 2}
+  - {fileID: 11400000, guid: 621917a59653e224685db65720988282, type: 2}
+  - {fileID: 11400000, guid: e5ce1d079da5eea4b80f77ce0e0bd1da, type: 2}
+  clue: []
+  dialogueDone: 0
+  necessaryDialogue: 1

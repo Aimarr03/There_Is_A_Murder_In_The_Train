@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742858c3117e9ec47a58c4c6942b4a0c, type: 3}
+  m_Name: Officer 01
+  m_EditorClassIdentifier: 
+  characterName: Officer 01
+  characterExpression:
+  - expressionType: Happy
+    expressionImage: {fileID: 21300000, guid: 117b2c99487b2e743a0c15735b2b0291, type: 3}
+  - expressionType: Shout
+    expressionImage: {fileID: 21300000, guid: c4d32d4694c26c246a30a1a5d83eb1bb, type: 3}
+  - expressionType: Angry
+    expressionImage: {fileID: 21300000, guid: 7604c950f85e0c544bff9c49d02e32ac, type: 3}
+  - expressionType: Normal
+    expressionImage: {fileID: 21300000, guid: 4e72203aae5e9ad4ca1a6c34da86ca41, type: 3}
+  - expressionType: Sad
+    expressionImage: {fileID: 21300000, guid: 2ca65d13fd4156b4199139fce986eeaa, type: 3}

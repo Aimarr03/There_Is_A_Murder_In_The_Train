@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 742858c3117e9ec47a58c4c6942b4a0c, type: 3}
-  m_Name: Officer
+  m_Name: Officer 02
   m_EditorClassIdentifier: 
-  characterName: Officer
+  characterName: Officer 02
   characterExpression:
   - expressionType: Happy
     expressionImage: {fileID: 21300000, guid: 117b2c99487b2e743a0c15735b2b0291, type: 3}
