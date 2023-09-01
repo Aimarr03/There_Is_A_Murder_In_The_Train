@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Decision1
   m_EditorClassIdentifier: 
   entries:
-  - speakerName: Officer
-    speakerExpression: Shock
+  - speakerName: Officer 01
+    speakerExpression: Shout
     speakerLines:
     - So you think the culprit is Mr. Cedric Whitestone?
   characterInvolved:

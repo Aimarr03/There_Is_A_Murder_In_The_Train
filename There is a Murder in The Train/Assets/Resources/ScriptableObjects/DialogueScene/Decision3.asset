@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Decision3
   m_EditorClassIdentifier: 
   entries:
-  - speakerName: Officer
-    speakerExpression: Shock
+  - speakerName: Officer 01
+    speakerExpression: Shout
     speakerLines:
     - Goodness! You think of it as suicide?
   characterInvolved:
