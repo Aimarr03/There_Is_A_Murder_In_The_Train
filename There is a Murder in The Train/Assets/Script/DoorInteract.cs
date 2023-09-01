@@ -25,14 +25,22 @@ public class DoorInteract : MonoBehaviour
     {
         if (Touched())
         {
-        // fadeBlack.GetComponent<SpriteRenderer>().color = new Color(0,0,0,255);
-        StartCoroutine(FadeTo(20f,1f));
-        Debug.Log(("move"));
-        newPosition = new Vector2(x, y);
-        player.transform.position = newPosition;
-        yield return new WaitForSeconds(0.2f);
-        StartCoroutine(FadeTo(0f,1f));
-        Debug.Log("fuck");
+            // fadeBlack.GetComponent<SpriteRenderer>().color = new Color(0,0,0,255);
+            player.GetComponent<PlayerMovement>().status = false;
+            StartCoroutine(FadeTo(20f,1f));
+            Debug.Log(("teleport start"));
+            newPosition = new Vector2(x, y);
+            player.transform.position = newPosition;
+            yield return new WaitForSeconds(0.2f);
+            StartCoroutine(FadeTo(0f,1f));
+            Debug.Log("teleport done");
+            player.GetComponent<PlayerMovement>().status = true;
+            yield return new WaitForSeconds(0.65f);
+            if(player.transform.position.x != x || player.transform.position.y != y)
+            {
+                player.transform.position = newPosition;
+            }
+
         }
     }
 
