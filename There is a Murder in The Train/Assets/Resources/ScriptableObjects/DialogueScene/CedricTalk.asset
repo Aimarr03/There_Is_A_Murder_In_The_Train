@@ -128,5 +128,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
   clue:
   - {fileID: 11400000, guid: a87a00005f4d36d45a754742b24360e4, type: 2}
+  - {fileID: 11400000, guid: 57eb118621d49f545bc7a9f9f1c9e93b, type: 2}
+  - {fileID: 11400000, guid: e0769a4dea319f749bd18282891b6296, type: 2}
   dialogueDone: 0
-  necessaryDialogue: 0
+  necessaryDialogue: 1

@@ -20,4 +20,4 @@ MonoBehaviour:
     any connection with the victim. '
   - Though it is obvious that the companion is the main suspect, further investigation
     is needed to confirm it.
-  clueImage: {fileID: 0}
+  clueImage: {fileID: 21300000, guid: 8457f789a46970f4bb5f1e2ae5eb66a9, type: 3}

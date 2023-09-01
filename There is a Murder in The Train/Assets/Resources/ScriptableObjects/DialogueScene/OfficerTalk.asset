@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
+  m_Name: OfficerTalk
+  m_EditorClassIdentifier: 
+  entries:
+  - speakerName: Amelia
+    speakerExpression: Normal
+    speakerLines:
+    - "Umm.. excuse me sir, would you mind if I take a look on the investigation?\r"
+  - speakerName: Officer
+    speakerExpression: Angry
+    speakerLines:
+    - 'I am sorry, Miss, but please refrain from interfere with our work.
+
+'
+  - speakerName: Amelia
+    speakerExpression: Happy
+    speakerLines:
+    - 'Oh.. I was wondering if I can help you investigate the case. '
+    - 'My name is Amelia Rivers and I am a criminology student. I may have a lead
+      to pinpoint the truth behind this.
+
+'
+  - speakerName: Officer
+    speakerExpression: Normal
+    speakerLines:
+    - How about you show your ID first, Miss.
+  - speakerName: Amelia
+    speakerExpression: Sad
+    speakerLines:
+    - 'I see.. Umm.. here you go.
+
+'
+  - speakerName: Officer
+    speakerExpression: Happy
+    speakerLines:
+    - "Hmm.. I would know that badge even if I was half blind. So you\u2019re part
+      of that university, huh."
+    - "We do need all the help we can get in this case, the guys we have here aren\u2019t
+      particularly well versed in that area."
+  - speakerName: Officer
+    speakerExpression: Sad
+    speakerLines:
+    - 'Normally, we would not advise you to interfere with the autopsy. However,
+      we will tell you how much info we have gathered after the autopsy. '
+  - speakerName: Officer
+    speakerExpression: Happy
+    speakerLines:
+    - "Why don\u2019t you talk with the people in this area first, Miss Rivers."
+  - speakerName: Amelia
+    speakerExpression: Happy
+    speakerLines:
+    - You will? Thank you!
+    - 'Alright, please notify me when you are done with the autopsy.
+
+'
+  - speakerName: Officer
+    speakerExpression: Happy
+    speakerLines:
+    - "Don\u2019t you worry.\r\n"
+  characterInvolved:
+  - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
+  - {fileID: 11400000, guid: 0ad991b17b29190409adde77a6706666, type: 2}
+  clue: []
+  dialogueDone: 0
+  necessaryDialogue: 1

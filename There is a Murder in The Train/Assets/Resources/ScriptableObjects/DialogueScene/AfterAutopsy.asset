@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
+  m_Name: AfterAutopsy
+  m_EditorClassIdentifier: 
+  entries:
+  - speakerName: Officer
+    speakerExpression: Angry
+    speakerLines:
+    - Everyone, thank you for your patience. We have done the autopsy and will be
+      sharing the information on what we have found.
+  - speakerName: Officer
+    speakerExpression: Normal
+    speakerLines:
+    - Ahem.. The victim is indeed murdered during the event. It is discovered that
+      he was indeed poisoned. The poison is found on the bowl which the victim was
+      using.
+    - The victim's name is Thomas Landersan, he is the head of the Landertech Industries.
+      Until the police arrive, please remain in this area.
+  - speakerName: Officer
+    speakerExpression: Angry
+    speakerLines:
+    - 'However, it seems that one of the passengers is a criminology student who
+      is willing to help unravel the truth.
+
+'
+    - I know how unprofessional that might seem, but in a case as unusual as this,
+      we need all the help we can get.
+  - speakerName: Amelia
+    speakerExpression: Happy
+    speakerLines:
+    - Huh?
+  - speakerName: Officer
+    speakerExpression: Angry
+    speakerLines:
+    - "That aside, the victim\u2019s companion who happened to sit in front of him
+      before and after the events remains the main suspect. "
+    - With that in mind, please comply with us, we will monitor your actions from
+      here on.
+  - speakerName: Cedric
+    speakerExpression: Angry
+    speakerLines:
+    - Fine then, I will comply.
+    - Be that as it may, it will only be a matter of time until the truth arises.
+  - speakerName: Chloe
+    speakerExpression: Happy
+    speakerLines:
+    - 'Hmm.. big talk when fate has already decided on your demise.
+
+'
+  - speakerName: Cedric
+    speakerExpression: Shout
+    speakerLines:
+    - 'We shall see for ourselves, though I am certain that I am in the right.
+
+'
+  - speakerName: Officer
+    speakerExpression: Normal
+    speakerLines:
+    - Miss Rivers, as promised we will give you detailed information regarding the
+      victim's body.
+  - speakerName: Amelia
+    speakerExpression: Normal
+    speakerLines:
+    - Okay, please do share what you have found, officer.
+  - speakerName: Officer
+    speakerExpression: Happy
+    speakerLines:
+    - Right, setting aside the information we have provided towards the public, we
+      would like to discuss with you regarding whatever surrounds this case.
+  - speakerName: Officer
+    speakerExpression: Angry
+    speakerLines:
+    - Ahem.. On the scene, we have found more utensils than there should be.
+    - As you know, the train policy is not to provide large amounts of utensils on
+      the table at once, but to serve it along with the food so there will be no
+      unnecessary extras on the table.
+    - "Regarding those utensils, one is contaminated with poison and one does not.
+      We could assume that the victim\u2019s companion had a chance to swap them
+      in the victim\u2019s absence."
+    - "Regarding those utensils, one is contaminated with poison and one does not.
+      We could assume that the victim\u2019s companion had a chance to swap them
+      in the victim\u2019s absence."
+    - "The victim himself isn\u2019t covered in any bruises so a fight most certainly
+      didn\u2019t occur before the fact. Most likely that the victim made a scene
+      after the poison took effect."
+  - speakerName: Officer
+    speakerExpression: Happy
+    speakerLines:
+    - 'That is all regarding the autopsy. All this leads to the main suspect. Is
+      there anything you would like to know more about?
+
+'
+  - speakerName: Amelia
+    speakerExpression: Happy
+    speakerLines:
+    - "No.. that will be enough, let me gather more information first, then I\u2019ll
+      gather the people to unravel the truth."
+  - speakerName: Officer
+    speakerExpression: Happy
+    speakerLines:
+    - As you wish, best of luck, Miss Rivers!
+  characterInvolved:
+  - {fileID: 11400000, guid: 0ad991b17b29190409adde77a6706666, type: 2}
+  - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
+  - {fileID: 11400000, guid: 993f337de84ed3846b8d72bdc77862a5, type: 2}
+  - {fileID: 11400000, guid: 0358648bdb3899f40be6a1dc45890e59, type: 2}
+  clue:
+  - {fileID: 11400000, guid: 33fd8ffebd5c6a546a2fd8de9b881e6e, type: 2}
+  dialogueDone: 0
+  necessaryDialogue: 0

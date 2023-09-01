@@ -148,4 +148,4 @@ MonoBehaviour:
   clue:
   - {fileID: 11400000, guid: b93d703c1fbb61641985e76c071c8927, type: 2}
   dialogueDone: 0
-  necessaryDialogue: 0
+  necessaryDialogue: 1

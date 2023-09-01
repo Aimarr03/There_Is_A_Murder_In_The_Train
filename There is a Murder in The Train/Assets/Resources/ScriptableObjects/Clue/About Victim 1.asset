@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b09445779579eaf4da0f327957be9b93, type: 3}
+  m_Name: About Victim 1
+  m_EditorClassIdentifier: 
+  index: 0
+  clueHighlight: About the Victim
+  clueParagraphs:
+  - "The victim's name is Thomas Landersan, he is 29 years old and is an entrepreneur
+    and the head of Landertech Industries. His and Cedric\u2019s family has quite
+    the long history of cooperation."
+  - "He suddenly collapsed and died in the train named \u201CThe Elysia\u201D wherein
+    his death caused a scene.\r\n"
+  clueImage: {fileID: 21300000, guid: f6bb83ff99b33d24e918c93b56f0c1a0, type: 3}
