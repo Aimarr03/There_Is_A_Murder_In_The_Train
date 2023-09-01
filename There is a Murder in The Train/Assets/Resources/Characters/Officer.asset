@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 742858c3117e9ec47a58c4c6942b4a0c, type: 3}
   m_Name: Officer
   m_EditorClassIdentifier: 
-  characterName: 
-  characterExpression: []
+  characterName: Officer
+  characterExpression:
+  - expressionType: Happy
+    expressionImage: {fileID: 0}
+  - expressionType: Shock
+    expressionImage: {fileID: 0}

@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
   m_Name: Decision1
   m_EditorClassIdentifier: 
-  entries: []
-  characterInvolved: []
+  entries:
+  - speakerName: Officer
+    speakerExpression: Shock
+    speakerLines:
+    - So you think the culprit is Mr. Cedric Whitestone?
+  characterInvolved:
+  - {fileID: 11400000, guid: 0ad991b17b29190409adde77a6706666, type: 2}
   clue: []
   dialogueDone: 0
   necessaryDialogue: 0
