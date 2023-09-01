@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: About Cedric Whitestone
   m_EditorClassIdentifier: 
   index: 0
-  clueHighlight: About Chloe Rutherford
+  clueHighlight: About Cedric Whitestone
   clueParagraphs:
-  - 'Chloe Rutherford,a self-assured young woman, occupied a pivotal seat neighboring
-    both the victim and the alleged perpetrator. She claimed that she does not have
-    any connection with the victim. '
-  - Though it is obvious that the companion is the main suspect, further investigation
-    is needed to confirm it.
+  - Cedric Whitestone is a friend of the victim. He himself was at the crime scene
+    when the murder occurred and claimed to have not moved from his position at all.
+  - "His friendship with the victim is that Cedric\u2019s family, the Whitestones,
+    and the victim\u2019s family established a business collaboration where the Whitestones
+    business helps by increasing the marketing potential of the victim\u2019s products."
   clueImage: {fileID: 0}

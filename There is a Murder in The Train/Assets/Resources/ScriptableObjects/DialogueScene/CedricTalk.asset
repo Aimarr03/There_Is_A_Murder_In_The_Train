@@ -12,8 +12,121 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
   m_Name: CedricTalk
   m_EditorClassIdentifier: 
-  entries: []
-  characterInvolved: []
-  clue: []
+  entries:
+  - speakerName: Cedric
+    speakerExpression: Angry
+    speakerLines:
+    - Hm... You don't quite resemble the security personnel.
+  - speakerName: Amelia
+    speakerExpression: Happy
+    speakerLines:
+    - I... I suppose I don't quite fit the bill, huh? Haha...
+    - Um, pardon me, but I'd like to inquire about the events involving the victim.
+      I was present when he was found, though I lack the full picture.
+  - speakerName: Cedric
+    speakerExpression: Shout
+    speakerLines:
+    - And why should I entertain a stranger who isn't part of the security team?
+  - speakerName: Amelia
+    speakerExpression: Sad
+    speakerLines:
+    - Oh... I apologize if I came across as impolite. My name is Amelia Rivers. I'm
+      a criminology student who happened to be present during the incident.
+  - speakerName: Cedric
+    speakerExpression: Happy
+    speakerLines:
+    - '"Happened to be present", you say?'
+  - speakerName: Amelia
+    speakerExpression: Happy
+    speakerLines:
+    - Y-yes...
+  - speakerName: Cedric
+    speakerExpression: Happy
+    speakerLines:
+    - Well, I suppose no harm can be done in indulging you, I suppose.
+  - speakerName: Cedric
+    speakerExpression: Angry
+    speakerLines:
+    - However, let it be known that I vehemently deny any involvement in this crime.
+      I swear it upon the name of my family, the Whitestones.
+  - speakerName: Amelia
+    speakerExpression: Sad
+    speakerLines:
+    - Umm... Alright, Mr. Whitestone. Can you please describe your actions during
+      the events?
+  - speakerName: Cedric
+    speakerExpression: Normal
+    speakerLines:
+    - I was seated across from my friend. We were having lunch, a delightful Vichyssoise.
+      He mentioned feeling unwell and headed to the bathroom before finishing his
+      meal.
+    - I offered to accompany him, concerned for his health, but he declined. So,
+      I stayed at my seat, awaiting his return.
+  - speakerName: Cedric
+    speakerExpression: Sad
+    speakerLines:
+    - "When he did, he resumed eating but suddenly choked and panicked, creating
+      a chaotic scene. He coughed, struggled, and then went still\u2014unconscious."
+    - I was baffled, and then security arrived. You know the rest.
+  - speakerName: Cedric
+    speakerExpression: Happy
+    speakerLines:
+    - I'm sorry, I seem to have rambled off track.
+  - speakerName: Amelia
+    speakerExpression: Happy
+    speakerLines:
+    - Oh... no, it's alright. Your account is quite informative, and I... um... appreciate
+      your willingness to share.
+    - Ahem, moving on, you mentioned he's your friend, correct? Could you tell me
+      more about him and your relationship?
+  - speakerName: Cedric
+    speakerExpression: Happy
+    speakerLines:
+    - "Indeed, his name is Thomas Landersan. He's a dear friend. Our families have
+      a longstanding business partnership\u2014our Whitestone and Landersan."
+    - They handle production, and we handle marketing. Thomas was the head of his
+      company, while I'm slated to lead the Whitestone family.
+  - speakerName: Amelia
+    speakerExpression: Angry
+    speakerLines:
+    - Thomas Landersan... Isn't he the head of Landertech Industries?
+  - speakerName: Cedric
+    speakerExpression: Happy
+    speakerLines:
+    - You're absolutely right, Ms. Rivers. Impressive research.
+  - speakerName: Amelia
+    speakerExpression: Happy
+    speakerLines:
+    - Um... yes, well, you know... I try to stay informed... Ehehe.
+  - speakerName: Cedric
+    speakerExpression: Angry
+    speakerLines:
+    - Your confidence could use some work.
+  - speakerName: Amelia
+    speakerExpression: Happy
+    speakerLines:
+    - Ahahaa... I guess you have a point.
+  - speakerName: Cedric
+    speakerExpression: Normal
+    speakerLines:
+    - Is there anything else you'd like to ask, Miss Rivers?
+  - speakerName: Amelia
+    speakerExpression: Normal
+    speakerLines:
+    - No, that covers it for now. Thank you for your time and cooperation.
+  - speakerName: Cedric
+    speakerExpression: Shout
+    speakerLines:
+    - Rest assured, I did not harm my friend. Once you dig deeper, you'll come to
+      realize that.
+  - speakerName: Amelia
+    speakerExpression: Sad
+    speakerLines:
+    - I'll keep that in mind.
+  characterInvolved:
+  - {fileID: 11400000, guid: 993f337de84ed3846b8d72bdc77862a5, type: 2}
+  - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
+  clue:
+  - {fileID: 11400000, guid: a87a00005f4d36d45a754742b24360e4, type: 2}
   dialogueDone: 0
   necessaryDialogue: 0
