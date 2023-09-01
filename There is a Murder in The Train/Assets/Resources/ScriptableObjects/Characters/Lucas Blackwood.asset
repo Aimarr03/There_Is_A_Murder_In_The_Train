@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 742858c3117e9ec47a58c4c6942b4a0c, type: 3}
   m_Name: Lucas Blackwood
   m_EditorClassIdentifier: 
-  characterName: Lucas BlackWood
+  characterName: Lucas Blackwood
   characterExpression:
   - expressionType: Happy
     expressionImage: {fileID: 21300000, guid: 31fa58144f934084abaffcfe4223f3e5, type: 3}

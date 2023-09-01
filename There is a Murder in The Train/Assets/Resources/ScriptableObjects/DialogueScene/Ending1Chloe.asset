@@ -12,8 +12,166 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
   m_Name: Ending1Chloe
   m_EditorClassIdentifier: 
-  entries: []
-  characterInvolved: []
+  entries:
+  - speakerName: N
+    speakerExpression: None
+    speakerLines:
+    - Amelia RIvers' deduction pointed to Chloe Rutherford as the potential culprit.
+    - Amelia believed that Chloe's admiration for Thomas led her to orchestrate his
+      demise as a dramatic display of her unrequited feelings.
+  - speakerName: Amelia
+    speakerExpression: Normal
+    speakerLines:
+    - Chloe Rutherford, you are under suspicion for the murder of Thomas Landersan.
+  - speakerName: Chloe
+    speakerExpression: Angry
+    speakerLines:
+    - Oh really now? You actually think I'm capable of such a thing?
+  - speakerName: Cedric
+    speakerExpression: Normal
+    speakerLines:
+    - ...
+  - speakerName: Amelia
+    speakerExpression: Normal
+    speakerLines:
+    - 'I have reasons to believe that your admiration for Thomas escalated into an
+      obsession. '
+    - You knew him better than anyone else.
+  - speakerName: Chloe
+    speakerExpression: Sad
+    speakerLines:
+    - "\u201DKnew him better\u201D?"
+    - Oh this should be good, pray tell me, how have you come to that conclusion?
+  - speakerName: Chloe
+    speakerExpression: Normal
+    speakerLines:
+    - "\u201DKnew him better\u201D?"
+    - Oh this should be good, pray tell me, how have you come to that conclusion?
+  - speakerName: Amelia
+    speakerExpression: Sad
+    speakerLines:
+    - When Cedric mentioned that you two had a mysterious connection, it got me thinking.
+    - "Your interactions with Thomas were always unique\u2014unlike how you treat
+      anyone else."
+  - speakerName: Amelia
+    speakerExpression: Sad
+    speakerLines:
+    - When Cedric mentioned that you two had a mysterious connection, it got me thinking.
+    - "Your interactions with Thomas were always unique\u2014unlike how you treat
+      anyone else."
+  - speakerName: Chloe
+    speakerExpression: Happy
+    speakerLines:
+    - Unique? I'm intrigued. Continue.
+  - speakerName: Cedric
+    speakerExpression: Normal
+    speakerLines:
+    - Hm?
+  - speakerName: Amelia
+    speakerExpression: Normal
+    speakerLines:
+    - In the heat of your argument, your tone with Thomas was distinct. It hinted
+      at a personal connection beyond what was apparent.
+  - speakerName: Chloe
+    speakerExpression: Shout
+    speakerLines:
+    - "Is that so? And what's your point, Miss \u201CDetective\u201D?"
+  - speakerName: Amelia
+    speakerExpression: Sad
+    speakerLines:
+    - 'Furthermore, I found evidence that Thomas had a diary. '
+    - He wrote about you, Chloe, expressing his admiration for you despite frightening
+      the age gap.
+  - speakerName: Chloe
+    speakerExpression: Angry
+    speakerLines:
+    - Oh, please. You expect me to believe he was actually interested in someone
+      like me?
+  - speakerName: Amelia
+    speakerExpression: Normal
+    speakerLines:
+    - 'I also learned that Thomas had a past butler who he treated poorly. '
+    - In his diary, he mentioned not seeking closure with anyone else due to past
+      regrets.
+  - speakerName: Chloe
+    speakerExpression: Normal
+    speakerLines:
+    - Huh, and what does that have to do with anything?
+  - speakerName: Amelia
+    speakerExpression: Sad
+    speakerLines:
+    - Chloe, your demeanor changed when you admitted you knew Thomas well. You had
+      something more with him, something beyond casual interaction.
+  - speakerName: Chloe
+    speakerExpression: Happy
+    speakerLines:
+    - Oh, my dear Amelia, I'm flattered by your imagination.
+  - speakerName: Chloe
+    speakerExpression: Angry
+    speakerLines:
+    - Though this does not mean you are correct by any means.
+  - speakerName: Cedric
+    speakerExpression: Shout
+    speakerLines:
+    - Chloe, just admit it. Your obsession led you to poison him, to ensure he'd
+      be yours and yours alone.
+  - speakerName: Chloe
+    speakerExpression: Shout
+    speakerLines:
+    - What? You think I'd resort to something like that? How absurd!
+  - speakerName: Amelia
+    speakerExpression: Shout
+    speakerLines:
+    - You poisoned him during the meal. Using a delayed poison, you followed him
+      to confirm its effect, and then left him to suffer.
+  - speakerName: Chloe
+    speakerExpression: Shout
+    speakerLines:
+    - And where might YOUR evidence be?
+  - speakerName: Cedric
+    speakerExpression: Shout
+    speakerLines:
+    - The pieces fit. Your obsession, his journal, the unique connection you both
+      had.
+  - speakerName: Chloe
+    speakerExpression: Angry
+    speakerLines:
+    - You're both insufferable. You know nothing about my feelings.
+  - speakerName: Officer 01
+    speakerExpression: Angry
+    speakerLines:
+    - Enough. Miss Chloe Rutherford, you will be taken into custody. You have the
+      right to remain silent.
+  - speakerName: Chloe
+    speakerExpression: Shout
+    speakerLines:
+    - "You think you've won, haven\u2019t you? You're nothing but a blind, incompetent
+      wannabe detective!"
+    - You know nothing beyond your naive arrogance and delusions of your shallow
+      amateurish knowledge of your field!
+    - "Oh, and Ms. \u201CCriminology Student\u201D, do us all a favor and stick to
+      solving puzzles, not real crimes! "
+    - You're clearly out of your depth!
+  - speakerName: Chloe
+    speakerExpression: Angry
+    speakerLines:
+    - "Once my family hears of this, You\u2019ll know of it for certain."
+  - speakerName: Cedric
+    speakerExpression: Happy
+    speakerLines:
+    - 'Pay no heed to her words, Ms. Rivers. Chloe is known for her arrogance. '
+    - Though, I must sincerely thank you for helping to clear my name.
+  - speakerName: N
+    speakerExpression: None
+    speakerLines:
+    - With that, Chloe was led away, leaving Amelia with a sense of unease and the
+      weight of her decisions.
+  characterInvolved:
+  - {fileID: 11400000, guid: ef152583c5d5772448c4e350662fe0c2, type: 2}
+  - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
+  - {fileID: 11400000, guid: 0358648bdb3899f40be6a1dc45890e59, type: 2}
+  - {fileID: 11400000, guid: 993f337de84ed3846b8d72bdc77862a5, type: 2}
+  - {fileID: 11400000, guid: 0ad991b17b29190409adde77a6706666, type: 2}
   clue: []
   dialogueDone: 0
   necessaryDialogue: 0

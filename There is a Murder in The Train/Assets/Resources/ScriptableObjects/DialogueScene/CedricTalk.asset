@@ -9,10 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 742858c3117e9ec47a58c4c6942b4a0c, type: 3}
-  m_Name: Narrator
+  m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
+  m_Name: CedricTalk
   m_EditorClassIdentifier: 
-  characterName: N
-  characterExpression:
-  - expressionType: None
-    expressionImage: {fileID: 0}
+  entries: []
+  characterInvolved: []
+  clue: []
+  dialogueDone: 0
+  necessaryDialogue: 0
