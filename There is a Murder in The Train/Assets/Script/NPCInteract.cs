@@ -14,11 +14,14 @@ public class NPCInteract : MonoBehaviour
     }
     void OnMouseDown()
     {
-        Debug.Log(Touched());
-        Debug.Log(dialogue.dialogueDone);
-        if (Touched() && !dialogue.dialogueDone)
+        //Debug.Log(Touched());
+        //Debug.Log(dialogue.dialogueDone);
+        if(dialogue != null)
         {
-            DialogueManager.instance.ChangeDialog(dialogue);
+            if (Touched() && !dialogue.dialogueDone)
+            {
+                DialogueManager.instance.ChangeDialog(dialogue);
+            }
         }
     }
     public Dialogue GetDialogue()

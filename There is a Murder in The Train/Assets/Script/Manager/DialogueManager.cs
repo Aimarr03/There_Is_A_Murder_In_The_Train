@@ -51,6 +51,7 @@ public class DialogueManager : MonoBehaviour
         {
             CharacterManager.instance.AddCharacter(characterInvolved);
         }
+        ClueManager.instance.ClueButton.gameObject.SetActive(false);
         PlayNextDialogue();
     }
     public void PlayNextDialogue()
@@ -84,18 +85,19 @@ public class DialogueManager : MonoBehaviour
             done = lastConversation;
             currentDialogueScene.dialogueDone = lastConversation;
             HideUI();
-            if (currentDialogueScene.necessaryDialogue)
-            {
-                GameManager.instance.currentNecessaryDialogueDone++;
-            }
             if (currentDialogueScene.ClueProvided())
             {
                 ClueManager.instance.AddClue(currentDialogueScene.clue);
             }
+            /*
+            if (currentDialogueScene.necessaryDialogue)
+            {
+                GameManager.instance.currentNecessaryDialogueDone++;
+            }
             if (GameManager.instance.CheckAllNecessaryDialogueDone())
             {
                 GameManager.instance.LoadNextStorySegment();
-            }
+            }*/
         }
         return lastConversation;
     }
@@ -138,6 +140,7 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
+                ClueManager.instance.ClueButton.gameObject.SetActive(true);
                 IncremenetConversation();
                 PlayNextDialogue();
             }

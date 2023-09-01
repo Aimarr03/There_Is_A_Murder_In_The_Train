@@ -39,7 +39,6 @@ public class ClueInfoManager : MonoBehaviour
     {
         clueImage.gameObject.GetComponent<Image>().sprite = null;
         clueHighlight.text = null;
-        List<string> clueInfo = null;
         foreach (Transform child in container)
         {
             if (child == clueInfoTemplate) continue;

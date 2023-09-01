@@ -7,15 +7,21 @@ using UnityEngine;
 [System.Serializable]
 public class StorySegment : ScriptableObject
 {
-    public Dictionary<string, Dialogue> dialogueList = new Dictionary<string, Dialogue>();
+    [System.Serializable]
+    public class DialogueEntryPair
+    {
+        public string key;
+        public Dialogue value;
+    }
+    public List<DialogueEntryPair> dialogueList = new List<DialogueEntryPair>();
     public int recordDialogueNecessaryDone;
     public StorySegment nextGameScene;
     public void SetNecessaryDialoguesNumber()
     {
         recordDialogueNecessaryDone = 0;
-        foreach(Dialogue dialogue in dialogueList.Values)
+        foreach(DialogueEntryPair dialogue in dialogueList)
         {
-            if (dialogue.necessaryDialogue)
+            if (dialogue.value.necessaryDialogue)
             {
                 recordDialogueNecessaryDone++;
             }

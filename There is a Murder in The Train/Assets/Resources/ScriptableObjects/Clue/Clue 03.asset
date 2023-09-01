@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b09445779579eaf4da0f327957be9b93, type: 3}
+  m_Name: Clue 03
+  m_EditorClassIdentifier: 
+  index: 0
+  clueHighlight: Testing number 3
+  clueParagraphs:
+  - I am trying to get something with this new data
+  clueImage: {fileID: 21300000, guid: 210998f6829ae9e4cb26eabf9ab7017b, type: 3}
