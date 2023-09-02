@@ -8,7 +8,7 @@ public class ClueManager : MonoBehaviour
 {
     public Transform ClueButton;
     //[SerializeField] Transform ClueManagerUI;
-    private List<Clue> ClueObtained = new List<Clue>();
+    [SerializeField]private List<Clue> ClueObtained = new List<Clue>();
 
     public static ClueManager instance;
     public void Awake()

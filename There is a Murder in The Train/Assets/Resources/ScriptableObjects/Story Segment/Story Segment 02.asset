@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c028e64c40f76f34790c3f4a049dc789, type: 3}
-  m_Name: Story Segmen 02
+  m_Name: Story Segment 02
   m_EditorClassIdentifier: 
   dialogueList:
   - key: NPC 05
@@ -23,5 +23,7 @@ MonoBehaviour:
     value: {fileID: 11400000, guid: c67014cd0b4f7f846b0da0babe566d06, type: 2}
   - key: Lucas Blackwood
     value: {fileID: 11400000, guid: 4f993fe607001cc4fa91fc9283922fb3, type: 2}
-  recordDialogueNecessaryDone: 1
+  - key: Thomas Bag
+    value: {fileID: 11400000, guid: ddfaeb11f92363e44acf765c64dec434, type: 2}
+  recordDialogueNecessaryDone: 2
   nextGameScene: {fileID: 11400000, guid: 2e26ff409acc00448a36802bf3ca9abb, type: 2}
