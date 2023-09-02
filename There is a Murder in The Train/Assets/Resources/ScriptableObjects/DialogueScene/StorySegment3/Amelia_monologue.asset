@@ -12,9 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
   m_Name: Amelia_monologue
   m_EditorClassIdentifier: 
-  entries: []
-  characterInvolved: []
+  entries:
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - "I think I have gathered enough leads and informations.. \r\n"
+    - 'Now.. '
+    - I need to gather the people to tell them the truth..
+  characterInvolved:
+  - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
   clue: []
-  dialogueDone: 0
-  necessaryDialogue: 0
+  dialogueDone: 1
   choiceAvalaible: 0
+  necessaryDialogue: 0
+  dialogueType: 0

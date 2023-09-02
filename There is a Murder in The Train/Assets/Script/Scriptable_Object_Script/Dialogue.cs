@@ -18,8 +18,14 @@ public class Dialogue : ScriptableObject
     public List<Character> characterInvolved = new List<Character>();
     public List<Clue> clue;
     public bool dialogueDone = false;
-    public bool necessaryDialogue;
     public bool choiceAvalaible;
+    public bool necessaryDialogue;
+    public enum DialogueType
+    {
+        Normal,
+        Ending,
+    }
+    public DialogueType dialogueType;
     public bool ClueProvided()
     {
         return clue != null;

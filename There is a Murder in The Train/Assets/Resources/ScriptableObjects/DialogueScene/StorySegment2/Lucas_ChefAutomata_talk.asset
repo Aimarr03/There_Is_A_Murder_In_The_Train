@@ -232,5 +232,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   dialogueDone: 1
-  necessaryDialogue: 1
   choiceAvalaible: 0
+  necessaryDialogue: 1
+  dialogueType: 0

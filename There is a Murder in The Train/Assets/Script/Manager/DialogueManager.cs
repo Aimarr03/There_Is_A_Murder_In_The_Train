@@ -96,10 +96,10 @@ public class DialogueManager : MonoBehaviour
             done = lastConversation;
             currentDialogueScene.dialogueDone = lastConversation;
             HideUI();
-            if (currentDialogueScene.choiceAvalaible)
+            if (currentDialogueScene.name == "Gathering_People")
             {
-                ChoiceManager.instance.DisplayUI();
                 HideUI();
+                ChoiceManager.instance.DisplayUI();
             }
             if (currentDialogueScene.ClueProvided())
             {
@@ -112,6 +112,14 @@ public class DialogueManager : MonoBehaviour
             if (GameManager.instance.CheckAllNecessaryDialogueDone())
             {
                 GameManager.instance.LoadNextStorySegment();
+            }
+            Debug.Log(currentDialogueScene.dialogueType);
+            Debug.Log(currentDialogueScene.dialogueType == Dialogue.DialogueType.Ending);
+            if(currentDialogueScene.dialogueType == Dialogue.DialogueType.Ending)
+            {
+                ClueManager.instance.ClueButton.gameObject.SetActive(true);
+                StartCoroutine(EndingManager.instance.FadeTo(20f, 12.5f));
+
             }
         }
         return lastConversation;
@@ -128,7 +136,7 @@ public class DialogueManager : MonoBehaviour
     {
         if(indexLine > 0)
         {
-            StopCoroutine(TypeSentence(currentDialogueEntry.speakerLines[indexLine]));
+            StopAllCoroutines();
             currentDialogue.text = "";
         }
         StartCoroutine(TypeSentence(currentDialogueEntry.speakerLines[++indexLine]));
@@ -166,7 +174,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-
+            
         }
     }
 }
