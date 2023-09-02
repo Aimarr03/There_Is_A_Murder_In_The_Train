@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
+  m_Name: EndingSuey
+  m_EditorClassIdentifier: 
+  entries:
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - Everyone, I need you to stay calm when I say this. For it might be against
+      what you've known so far.
+  - speakerName: Amelia Rivers
+    speakerExpression: Angry
+    speakerLines:
+    - I believe the victim, Mr. Landersan, did not fall victim to foul play. But
+      rather took his own life.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Shout
+    speakerLines:
+    - Hold your tongue! You're saying Thomas commited suicide?
+  - speakerName: Cedric Whitestone
+    speakerExpression: Sad
+    speakerLines:
+    - That is unthinkable. Thomas would never...
+  - speakerName: Lucas Blackwood
+    speakerExpression: Angry
+    speakerLines:
+    - Suicide? That's a tough claim, milady.
+  - speakerName: Amelia Rivers
+    speakerExpression: Angry
+    speakerLines:
+    - 'Please, let me explain. This wasn''t a simple suicide. '
+    - It was a meticulously orchestrated act, crafted to cast suspicion on Cedric.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Sad
+    speakerLines:
+    - Wait a minute. You're suggesting he staged his own suicide? To frame dear old
+      me?
+  - speakerName: Amelia Rivers
+    speakerExpression: Angry
+    speakerLines:
+    - Exactly. The details we've overlooked are the key. The empty sauce bottle,
+      seemingly insignificant, was a calculated distraction.
+    - But the real clue was the dropped spoon during their meal.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Sad
+    speakerLines:
+    - "He did drop his spoon, though I don\u2019t see how that would mean anything."
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - Indeed. That spoon, intentionally swapped with the one he had hidden, was the
+      linchpin.
+  - speakerName: Lucas Blackwood
+    speakerExpression: Normal
+    speakerLines:
+    - So, it was part of a ruse?
+  - speakerName: Amelia Rivers
+    speakerExpression: Angry
+    speakerLines:
+    - Absolutely. This spoon swap provided Cedric with the perfect opportunity to
+      introduce the poison.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Sad
+    speakerLines:
+    - But why go to such lengths? What would drive him to orchestrate his own death?
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - The answer lies in the weight of his circumstances, particularly his entanglement
+      with Cedric.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Sad
+    speakerLines:
+    - My involvement with him led to this?
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - Financial records and business dealings unveil a crumbling partnership that
+      took a severe toll on Thomas's mental health.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Sad
+    speakerLines:
+    - So, his failing health was a consequence of this business turmoil?
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - Precisely. The stress, anxiety, and the bleak future of Landertech Industries
+      took an unbearable toll.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Sad
+    speakerLines:
+    - But why go to such lengths to frame me?
+  - speakerName: Amelia Rivers
+    speakerExpression: Shout
+    speakerLines:
+    - 'Because Thomas''s ultimate aim was to dissolve the partnership between the
+      Whitestone and Landersan families. '
+    - This intricate scheme served as his means to achieve that end.
+  - speakerName: Lucas Blackwood
+    speakerExpression: Sad
+    speakerLines:
+    - He truly was a deeply troubled soul, burdened by his perception of the world.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Sad
+    speakerLines:
+    - I can't wrap my head around this... It's almost too much.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Sad
+    speakerLines:
+    - This changes everything. I never saw this coming.
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - Mysteries often lie beneath layers we thought not to explore.
+  - speakerName: Officer 01
+    speakerExpression: Sad
+    speakerLines:
+    - This raises important questions. Are there more details you can provide, Miss?
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - Certainly. The evidence not only points to Thomas's intention but also to the
+      meticulous planning he undertook.
+    - His medical records indicate a dire decline in his health, matched by the instability
+      of his company's financial health.
+  - speakerName: Lucas Blackwood
+    speakerExpression: Normal
+    speakerLines:
+    - So, his actions were indeed driven by desperation.
+  - speakerName: Amelia Rivers
+    speakerExpression: Angry
+    speakerLines:
+    - "Exactly. He wanted to secure a future for Landertech Industries without the
+      shadow of the Whitestones\u2019 influence."
+    - Or rather, he would like for it all to end if it means not having the Whitestones
+      take complete control.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Shout
+    speakerLines:
+    - But how does the poison fit into all of this?
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - 'The poison was a tool to ensure Cedric''s involvement in the scenario. '
+    - By creating suspicion, Thomas intended to push Cedric to face the consequences
+      of their crumbling partnership.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Sad
+    speakerLines:
+    - So, he wanted my family's legacy to crumble.
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - Yes, but this act wasn't just about that. It was about freeing himself from
+      the chains that bound him.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Sad
+    speakerLines:
+    - Is that so? Well, this doesn't feel freeing to me.
+    - I feel as if I will be chained by the guilt of this event to the end of my
+      days.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Sad
+    speakerLines:
+    - ...
+  characterInvolved:
+  - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
+  - {fileID: 11400000, guid: 0358648bdb3899f40be6a1dc45890e59, type: 2}
+  - {fileID: 11400000, guid: 993f337de84ed3846b8d72bdc77862a5, type: 2}
+  - {fileID: 11400000, guid: 642511a8ad200694d9d3ead8e87836f6, type: 2}
+  - {fileID: 11400000, guid: 0ad991b17b29190409adde77a6706666, type: 2}
+  clue: []
+  dialogueDone: 0
+  choiceAvalaible: 0
+  necessaryDialogue: 0
+  dialogueType: 1
