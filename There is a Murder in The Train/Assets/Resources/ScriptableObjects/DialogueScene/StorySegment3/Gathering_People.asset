@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
+  m_Name: Gathering_People
+  m_EditorClassIdentifier: 
+  entries:
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - Calm down...
+    - Breath in....
+    - Breath out....
+    - Ahem...
+    - Everyone,
+    - ' I thank you all for listening for my request. '
+    - I gather you all to unravel the truth behind these cases.
+  - speakerName: NPC 01
+    speakerExpression: Normal
+    speakerLines:
+    - "Isn\u2019t it already obvious that the companion victim is the one pulling
+      the strings\r\n"
+  - speakerName: NPC 02
+    speakerExpression: Normal
+    speakerLines:
+    - "Isn\u2019t it already obvious that the companion victim is the one pulling
+      the strings\r\n"
+  - speakerName: NPC 03
+    speakerExpression: Normal
+    speakerLines:
+    - 'Nonsense! The waiter is a sweetheart
+
+'
+    - 'He would never commit such an act. '
+    - "Besides, if we were talking about the food, wouldn\u2019t that mean that the
+      ChefAutomata could temper the food?"
+  - speakerName: NPC 04
+    speakerExpression: Normal
+    speakerLines:
+    - "That\u2019s beyond any logic that goes in the world! \r\n"
+    - A robot could have never tempered the food, a robot only follows commands,
+      they cannot possibly have will on their own.
+    - " Besides, don\u2019t you find it odd that the young girl has always accused
+      the main suspect as the murderer?"
+    - She could be the one who pulls the string.
+  - speakerName: NPC 01
+    speakerExpression: Normal
+    speakerLines:
+    - "That\u2019s just plain idiotic.\r\n"
+  - speakerName: Officer 01
+    speakerExpression: Shout
+    speakerLines:
+    - Order.. Order!
+  - speakerName: Chloe Rutherford
+    speakerExpression: Happy
+    speakerLines:
+    - "Hmm\u2026 Well, what sort of scenario did you have in mind, dear detective?\r\n"
+  - speakerName: Cedric Whitestone
+    speakerExpression: Happy
+    speakerLines:
+    - 'I am sure that you know the truth right, Miss Rivers?
+
+'
+  - speakerName: Lucas Blackwood
+    speakerExpression: Normal
+    speakerLines:
+    - ....
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - 'Alright, I am sorry to keep you waiting. '
+    - "I will go straight to the point, \r\n"
+    - "the murderer is\u2026"
+  characterInvolved:
+  - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
+  - {fileID: 11400000, guid: 993f337de84ed3846b8d72bdc77862a5, type: 2}
+  - {fileID: 11400000, guid: 0359eea51b0396941b0748d7be42aec4, type: 2}
+  - {fileID: 11400000, guid: 0358648bdb3899f40be6a1dc45890e59, type: 2}
+  - {fileID: 11400000, guid: 642511a8ad200694d9d3ead8e87836f6, type: 2}
+  - {fileID: 11400000, guid: 621917a59653e224685db65720988282, type: 2}
+  - {fileID: 11400000, guid: e5ce1d079da5eea4b80f77ce0e0bd1da, type: 2}
+  - {fileID: 11400000, guid: ac932c346a7bc3e48a421dad7fac111c, type: 2}
+  - {fileID: 11400000, guid: 1b3a67777c171e54b9ca3104f034d4b1, type: 2}
+  - {fileID: 11400000, guid: 0ad991b17b29190409adde77a6706666, type: 2}
+  - {fileID: 11400000, guid: 0f6fdf41b3537404e884de72d1826f17, type: 2}
+  clue: []
+  dialogueDone: 1
+  choiceAvalaible: 0
+  necessaryDialogue: 1
+  dialogueType: 0

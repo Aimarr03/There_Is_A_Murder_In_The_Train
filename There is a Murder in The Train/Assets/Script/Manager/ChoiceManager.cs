@@ -6,10 +6,14 @@ public class ChoiceManager : MonoBehaviour
 {
     [SerializeField] private Transform ChoicePanel;
     public static ChoiceManager instance;
-    [SerializeField] private StorySegment confirmStorySegment;
+    [SerializeField] private Dialogue confirmStorySegment;
     public void Awake()
     {
         instance = this;
+    }
+    public void Start()
+    {
+        ChoicePanel.gameObject.SetActive(false);
     }
     public void DisplayUI()
     {
@@ -20,12 +24,11 @@ public class ChoiceManager : MonoBehaviour
         if(confirmStorySegment != null)
         {
             ChoicePanel.gameObject.SetActive(false);
-            GameManager.instance.currentStorySegment.nextGameScene = confirmStorySegment;
-            GameManager.instance.LoadNextStorySegment();
+            DialogueManager.instance.ChangeDialog(confirmStorySegment);
         }
     }
-    public void SetStorySegment(StorySegment storySegment)
+    public void SetStorySegment(Dialogue DialogueChoice)
     {
-        this.confirmStorySegment = storySegment;
+        this.confirmStorySegment = DialogueChoice;
     }
 }

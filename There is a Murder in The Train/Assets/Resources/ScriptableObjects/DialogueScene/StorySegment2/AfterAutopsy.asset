@@ -116,6 +116,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0358648bdb3899f40be6a1dc45890e59, type: 2}
   clue:
   - {fileID: 11400000, guid: 33fd8ffebd5c6a546a2fd8de9b881e6e, type: 2}
-  dialogueDone: 0
-  necessaryDialogue: 0
+  dialogueDone: 1
   choiceAvalaible: 0
+  necessaryDialogue: 1
+  dialogueType: 0

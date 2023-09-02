@@ -39,6 +39,7 @@ public class DialogueManager : MonoBehaviour
 
     public void ChangeDialog(Dialogue dialogue)
     {
+        ClueManager.instance.ClueButton.gameObject.SetActive(false);
         ShowUI();
         ContinueButton.gameObject.SetActive(true);
         ClueManager.instance.SetClueButtonVisibility(false);
@@ -51,7 +52,7 @@ public class DialogueManager : MonoBehaviour
         {
             CharacterManager.instance.AddCharacter(characterInvolved);
         }
-        ClueManager.instance.ClueButton.gameObject.SetActive(false);
+        
         PlayNextDialogue();
     }
     public void PlayNextDialogue()
@@ -72,7 +73,7 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
-                DialogueManager.instance.ShowUI();
+                
             }
         }
     }
@@ -91,9 +92,15 @@ public class DialogueManager : MonoBehaviour
         if (lastConversation) 
         {
             ContinueButton.gameObject.SetActive(false);
+            ClueManager.instance.ClueButton.gameObject.SetActive(true);
             done = lastConversation;
             currentDialogueScene.dialogueDone = lastConversation;
             HideUI();
+            if (currentDialogueScene.name == "Gathering_People")
+            {
+                HideUI();
+                ChoiceManager.instance.DisplayUI();
+            }
             if (currentDialogueScene.ClueProvided())
             {
                 ClueManager.instance.AddClue(currentDialogueScene.clue);
@@ -105,6 +112,14 @@ public class DialogueManager : MonoBehaviour
             if (GameManager.instance.CheckAllNecessaryDialogueDone())
             {
                 GameManager.instance.LoadNextStorySegment();
+            }
+            Debug.Log(currentDialogueScene.dialogueType);
+            Debug.Log(currentDialogueScene.dialogueType == Dialogue.DialogueType.Ending);
+            if(currentDialogueScene.dialogueType == Dialogue.DialogueType.Ending)
+            {
+                ClueManager.instance.ClueButton.gameObject.SetActive(true);
+                StartCoroutine(EndingManager.instance.FadeTo(20f, 12.5f));
+
             }
         }
         return lastConversation;
@@ -119,7 +134,11 @@ public class DialogueManager : MonoBehaviour
     }
     public void PlayNextLine()
     {
-        StopCoroutine(TypeSentence(currentDialogueEntry.speakerLines[indexLine]));
+        if(indexLine > 0)
+        {
+            StopAllCoroutines();
+            currentDialogue.text = "";
+        }
         StartCoroutine(TypeSentence(currentDialogueEntry.speakerLines[++indexLine]));
     }
     IEnumerator TypeSentence(string sentence)
@@ -149,14 +168,13 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
-                ClueManager.instance.ClueButton.gameObject.SetActive(true);
                 IncremenetConversation();
                 PlayNextDialogue();
             }
         }
         else
         {
-
+            
         }
     }
 }

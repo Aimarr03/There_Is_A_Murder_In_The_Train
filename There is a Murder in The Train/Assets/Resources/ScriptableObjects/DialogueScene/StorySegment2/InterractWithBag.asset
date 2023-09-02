@@ -12,9 +12,96 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
   m_Name: InterractWithBag
   m_EditorClassIdentifier: 
-  entries: []
-  characterInvolved: []
-  clue: []
-  dialogueDone: 0
-  necessaryDialogue: 0
+  entries:
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - Forgive me, Mr. Landersan...
+    - ....
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - Now,
+    - ' let''s delve into these documents..'
+    - ' I''ll start with the book..'
+    - 'Most of these entries revolve around his troubles, his regrets, primarily
+      about himself... '
+    - It seems Mr. Blackwood's assessment of Mr. Landersan holds some truth...
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - ' ''My business is not going well...''
+
+'
+    - ' ''Cedric always pushes proposals that seem profitable, but they backfire
+      on my industry...'''
+    - '''What is Cedric planning...''
+
+'
+    - '[Read Further]'
+    - '"His family and mine agreed to let Cedric manage most of the assets I have
+      in my industry... '
+    - 'I objected... '
+    - but they doubted my abilities due to my performance within the industry...
+      But it was Cedric's influence..."
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - As I read these words, it's as if Mr. Landersan is baring his soul, sharing
+      his innermost thoughts and anxieties
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - '''Every time I stroll around the city, often near schools... There''s always
+      this one girl who invites me to chat...'' '
+    - '''She appears young, probably enrolled in a high-education program...'' '
+    - '''Though the situation is unusual, I don''t mind her company...'''
+    - ' ''I enjoy our conversations; she''s full of energy and a good listener, despite
+      often talking about herself...'' '
+    - '''Despite her seemingly airheaded demeanor, she''s remarkably sharp, noticing
+      my expressions with ease...'' '
+    - '''She asked me to confide in her, to share what''s bothering me...'' '
+    - '''I... wanted to, but... I recalled how I mistreated my former butler...'' '
+    - '''I don''t want to witness her hurt expression, like him when I treated her
+      poorly...'' '
+    - '''I can''t control my emotions when they overpower me...'''
+    - ' ''So, remembering these feelings, I decided to distance myself from her from
+      now on...'' '
+    - '''She''s persistent...'''
+    - ' ''But because of this, I''ll make an effort to maintain my physical and emotional
+      distance...'''
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - 'This description... '
+    - 'It''s reminiscent of Chloe... '
+    - 'What is it she''s concealing from me? She wouldn''t reveal it even if I pressed
+      her... '
+    - 'Well, this should be a valuable addition to my arsenal... '
+    - 'Now, onto the documents themselves.. '
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - ......
+    - 'Ah, '
+    - the financial document reveals an investigation into how Mr. Whitestone orchestrated
+      his plan within Mr. Landersan's industry..
+    - Manipulating the marketplace and business information with cunning tactics
+    - Such cunning methods I daresay..
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - '[Examine]......'
+    - 'This health document states that Mr. Landersan suffered from lung cancer due
+      to excessive exposure to steam emissions from engineering... '
+    - 'His life was limited... '
+    - 'Did Cedric know about his health condition? '
+    - Or perhaps the Whitestone family and the Landersan family?
+  characterInvolved:
+  - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
+  clue:
+  - {fileID: 0}
+  dialogueDone: 1
   choiceAvalaible: 0
+  necessaryDialogue: 1
+  dialogueType: 0
