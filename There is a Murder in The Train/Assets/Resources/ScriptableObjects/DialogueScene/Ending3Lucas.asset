@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
+  m_Name: Ending3Lucas
+  m_EditorClassIdentifier: 
+  entries:
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - 'Um... I know this might sound a bit outlandish, but... I have this theory. '
+    - What if... what if the robot chef is somehow involved in the crime?
+  - speakerName: Cedric Whitestone
+    speakerExpression: Angry
+    speakerLines:
+    - Hold your thought for a moment. You're saying a machine committed murder?
+  - speakerName: Chloe Rutherford
+    speakerExpression: Happy
+    speakerLines:
+    - Oh, this is a new level of mystery-solving, isn't it?
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - I understand how it sounds, but please, hear what I have to say.
+    - "The sauce bottle \u2013 it's used for seasoning, including Cedric's Vichyssoise.
+      Yet, we found the same empty bottle in the kitchen's disposal bin."
+  - speakerName: Officer 01
+    speakerExpression: Sad
+    speakerLines:
+    - Are you suggesting the robot went rogue?
+  - speakerName: Amelia Rivers
+    speakerExpression: Angry
+    speakerLines:
+    - No, not the robot itself. But someone could have manipulated its actions for
+      a purpose.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Angry
+    speakerLines:
+    - So, someone's using a robot to commit murder now?
+  - speakerName: Amelia Rivers
+    speakerExpression: Angry
+    speakerLines:
+    - It's not that simple. The robot is innocent, a mere tool in all of this.
+  - speakerName: Lucas Blackwood
+    speakerExpression: Shout
+    speakerLines:
+    - But that's impossible. The robot follows strict programming.
+  - speakerName: Amelia Rivers
+    speakerExpression: Angry
+    speakerLines:
+    - Exactly, it's about diverting our attention. The true culprit used the robot's
+      routine
+  - speakerName: Officer 01
+    speakerExpression: Angry
+    speakerLines:
+    - You think someone used the robot to their advantage?
+  - speakerName: Amelia Rivers
+    speakerExpression: Shout
+    speakerLines:
+    - Yes, and I suspect... the waiter.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Shout
+    speakerLines:
+    - The waiter? Truly?
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - I believe so. He had access to the kitchen, the means to switch the bottles.
+  - speakerName: Lucas Blackwood
+    speakerExpression: Angry
+    speakerLines:
+    - This is absurd! I've served him for years, and I would never...
+  - speakerName: Officer 01
+    speakerExpression: Sad
+    speakerLines:
+    - Let's not jump to conclusions here.
+  - speakerName: Amelia Rivers
+    speakerExpression: Angry
+    speakerLines:
+    - "No, I'm sure. There's a motive \u2013 perhaps a grudge that was hidden."
+    - The resentment that's been festering ever since he served the victim as his
+      butler.
+  - speakerName: Lucas Blackwood
+    speakerExpression: Angry
+    speakerLines:
+    - I treated him well! Why would I...?
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - Sometimes it's not about how you treat someone, but how you feel you were treated.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Angry
+    speakerLines:
+    - Are you being serious right now?
+  - speakerName: Officer 01
+    speakerExpression: Sad
+    speakerLines:
+    - I admit I am perplexed, though we do need to consider all angles.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Sad
+    speakerLines:
+    - It does seem a bit farfetched and sudden. But it seems our detective has a
+      knack for rather surprising conclusions.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Sad
+    speakerLines:
+    - Well, I'm not buying into this robot theory.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Sad
+    speakerLines:
+    - Oh well. At least you should be thankful the young lady here cleared your name.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Shout
+    speakerLines:
+    - Thankful? For being falsely accused in the first place?
+  - speakerName: Chloe Rutherford
+    speakerExpression: Happy
+    speakerLines:
+    - What a coincidence that you often find yourself in these situations, Mr. Whitestone.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Shout
+    speakerLines:
+    - Coincidence? That is a blatant insult! I demand an apology.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Happy
+    speakerLines:
+    - Oh, come on. It's all in good fun.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Sad
+    speakerLines:
+    - Well, not like anyone even cares anyway.
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - Um, I'm sorry if this conclusion isn't at all what you expected.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Sad
+    speakerLines:
+    - No worries. I just need some time alone to enjoy the scenery.
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - I didn't exactly mean to offend anyone.
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - I didn't exactly mean to offend anyone.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Shout
+    speakerLines:
+    - Save it. You're way over your head.
+  characterInvolved:
+  - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
+  - {fileID: 11400000, guid: 993f337de84ed3846b8d72bdc77862a5, type: 2}
+  - {fileID: 11400000, guid: 0358648bdb3899f40be6a1dc45890e59, type: 2}
+  - {fileID: 11400000, guid: 642511a8ad200694d9d3ead8e87836f6, type: 2}
+  - {fileID: 11400000, guid: 0ad991b17b29190409adde77a6706666, type: 2}
+  clue: []
+  dialogueDone: 0
+  choiceAvalaible: 0
+  necessaryDialogue: 0
+  dialogueType: 1
