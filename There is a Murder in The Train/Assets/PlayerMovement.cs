@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TreeEditor;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -18,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    private void FixedUpdate()
+    private void Update()
     {
         if (status)
         {

@@ -58,13 +58,21 @@ public class DialogueManager : MonoBehaviour
     {
         if (!LastConversation())
         {
-            indexLine = -1;
-            currentDialogueEntry = currentDialogueScene.entries[indexConversation+1];
-            Character currentCharacter = CharacterManager.instance.GetCharacter(currentDialogueEntry.speakerName);
-            currentCharacterName.text = currentCharacter.characterName;
-            Character.ExpressionData expressionData = currentCharacter.GetExpressionData(currentDialogueEntry.speakerExpression);
-            characterRenderer.sprite = expressionData.expressionImage;
-            PlayNextLine();
+            if (!currentDialogueScene.choiceAvalaible)
+            {
+                indexLine = -1;
+                currentDialogueEntry = currentDialogueScene.entries[indexConversation+1];
+                Character currentCharacter = CharacterManager.instance.GetCharacter(currentDialogueEntry.speakerName);
+                Debug.Log(currentCharacter.characterName);
+                currentCharacterName.text = currentCharacter.characterName;
+                Character.ExpressionData expressionData = currentCharacter.GetExpressionData(currentDialogueEntry.speakerExpression);
+                characterRenderer.sprite = expressionData.expressionImage;
+                PlayNextLine();
+            }
+            else
+            {
+                DialogueManager.instance.ShowUI();
+            }
         }
     }
     public void IncremenetConversation()
@@ -89,7 +97,6 @@ public class DialogueManager : MonoBehaviour
             {
                 ClueManager.instance.AddClue(currentDialogueScene.clue);
             }
-            /*
             if (currentDialogueScene.necessaryDialogue)
             {
                 GameManager.instance.currentNecessaryDialogueDone++;
@@ -97,7 +104,7 @@ public class DialogueManager : MonoBehaviour
             if (GameManager.instance.CheckAllNecessaryDialogueDone())
             {
                 GameManager.instance.LoadNextStorySegment();
-            }*/
+            }
         }
         return lastConversation;
     }

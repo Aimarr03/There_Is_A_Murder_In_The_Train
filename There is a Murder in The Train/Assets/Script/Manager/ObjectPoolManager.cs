@@ -35,6 +35,7 @@ public class ObjectPoolManager : MonoBehaviour
         {
             GameObject obj = objectPools[keyName].Dequeue();
             obj.gameObject.SetActive(true);
+            Debug.Log("Dequeu Succesful "+ keyName);
             return obj;
         }
         return null;
@@ -44,6 +45,11 @@ public class ObjectPoolManager : MonoBehaviour
         if(objectPools.ContainsKey(key))
         {
             objectPools[key].Enqueue(gameObject);
+            Debug.Log("Enqueu succesful: " + gameObject.name);
+        }
+        else
+        {
+            Debug.Log("Enqueu unsuccessful: " + gameObject.name);
         }
     }
 }

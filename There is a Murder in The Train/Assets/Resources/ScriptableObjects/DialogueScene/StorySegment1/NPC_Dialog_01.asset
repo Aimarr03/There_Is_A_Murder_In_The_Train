@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
+  m_Name: NPC_Dialog_01
+  m_EditorClassIdentifier: 
+  entries:
+  - speakerName: NPC 01
+    speakerExpression: Normal
+    speakerLines:
+    - This is not happening....
+    - Goddamnit!
+    - I'm gonna be stuck here with a bunch of monkeys who stabs each other!
+    - FUCK!
+  characterInvolved:
+  - {fileID: 11400000, guid: 621917a59653e224685db65720988282, type: 2}
+  clue: []
+  dialogueDone: 0
+  necessaryDialogue: 0
+  choiceAvalaible: 0

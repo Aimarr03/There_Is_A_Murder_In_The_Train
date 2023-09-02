@@ -34,8 +34,8 @@ public class DoorInteract : MonoBehaviour
             yield return new WaitForSeconds(0.2f);
             StartCoroutine(FadeTo(0f,1f));
             Debug.Log("teleport done");
-            player.GetComponent<PlayerMovement>().status = true;
             yield return new WaitForSeconds(0.65f);
+            player.GetComponent<PlayerMovement>().status = true;
             if(player.transform.position.x != x || player.transform.position.y != y)
             {
                 player.transform.position = newPosition;

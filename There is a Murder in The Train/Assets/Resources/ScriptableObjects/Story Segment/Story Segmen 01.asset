@@ -13,7 +13,17 @@ MonoBehaviour:
   m_Name: Story Segmen 01
   m_EditorClassIdentifier: 
   dialogueList:
-  - key: TestNPC
-    value: {fileID: 11400000, guid: 2859f3582add8ff43b6d41f5215da3c5, type: 2}
-  recordDialogueNecessaryDone: 0
+  - key: NPC 05
+    value: {fileID: 11400000, guid: cdfb3afbcf6f51b4ea91724ea0603439, type: 2}
+  - key: Chloe Rutherford
+    value: {fileID: 11400000, guid: f31772f0e85aaf5409fc5112c1aa9011, type: 2}
+  - key: Cedric Whitestone
+    value: {fileID: 11400000, guid: 984967f2efaaabf458bbfa7b646538ec, type: 2}
+  - key: Thomas Landersan
+    value: {fileID: 11400000, guid: 0d2b33f820efb3c4b92bafd48348f251, type: 2}
+  - key: NPC 01
+    value: {fileID: 11400000, guid: c91022153294085408042ca4310ba2d0, type: 2}
+  - key: NPC 02
+    value: {fileID: 11400000, guid: d3fefc70bea425d41982290db3d5d29f, type: 2}
+  recordDialogueNecessaryDone: 4
   nextGameScene: {fileID: 11400000, guid: 12c8a7e04c60ce04cb554f9785a61180, type: 2}

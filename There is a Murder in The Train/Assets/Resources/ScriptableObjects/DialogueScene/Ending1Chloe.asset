@@ -42,17 +42,6 @@ MonoBehaviour:
     speakerLines:
     - "\u201DKnew him better\u201D?"
     - Oh this should be good, pray tell me, how have you come to that conclusion?
-  - speakerName: Chloe
-    speakerExpression: Normal
-    speakerLines:
-    - "\u201DKnew him better\u201D?"
-    - Oh this should be good, pray tell me, how have you come to that conclusion?
-  - speakerName: Amelia
-    speakerExpression: Sad
-    speakerLines:
-    - When Cedric mentioned that you two had a mysterious connection, it got me thinking.
-    - "Your interactions with Thomas were always unique\u2014unlike how you treat
-      anyone else."
   - speakerName: Amelia
     speakerExpression: Sad
     speakerLines:
@@ -175,3 +164,4 @@ MonoBehaviour:
   clue: []
   dialogueDone: 0
   necessaryDialogue: 0
+  choiceAvalaible: 0

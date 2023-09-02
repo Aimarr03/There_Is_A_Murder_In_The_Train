@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
+  m_Name: Lucas_ChefAutomata_talk
+  m_EditorClassIdentifier: 
+  entries:
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - 'Excuse me sir, '
+    - sorry to bother you...
+    - but I would like to ask you a few questions
+  - speakerName: Lucas Blackwood
+    speakerExpression: Normal
+    speakerLines:
+    - Well hello there, Miss...
+    - "it\u2019s about a passenger who happens to die due to poison isn\u2019t it?"
+    - ' I take it that you are a security officer.'
+  - speakerName: Amelia Rivers
+    speakerExpression: Happy
+    speakerLines:
+    - 'Oh.. '
+    - I am actually.. Not..
+    - ' Sorry for my impoliteness to suddenly approach you without introducing myself.
+      My name is Amelia Rivers, I am a criminology student who happens to be  at
+      the location of the crime when it occurs'
+  - speakerName: Lucas Blackwood
+    speakerExpression: Happy
+    speakerLines:
+    - 'hahaha.. Fate seems to want to challenge your dear skill, Miss Rivers. '
+    - ' Sorry for my impoliteness to suddenly approach you without introducing myself.
+      My name is Amelia Rivers, I am a criminology student who happens to be  at
+      the location of the crime when it occurs'
+  - speakerName: Amelia Rivers
+    speakerExpression: Happy
+    speakerLines:
+    - 'Wonderful, '
+    - mr. Blackwood. I was wondering, who is that robot beside you in the kitchen
+      area?
+  - speakerName: Lucas Blackwood
+    speakerExpression: Normal
+    speakerLines:
+    - 'Oh, sorry for not introducing him. '
+    - This is ChefAutomata, he is responsible for handling the matters of culinary
+  - speakerName: ChefAutomata
+    speakerExpression: Normal
+    speakerLines:
+    - Good Afternoon, miss Rivers, Sir Blackwood
+    - 'I am programmed to handle the matters regarding passenger sustenance by getting
+      commands from Sir Blackwood here. '
+    - I was built by Landertech Industries, and I am the 89th model of ChefAutomatas
+      robot line.
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - 'You are from the Landertech Industries? '
+    - "Can you tell me more about it?\r"
+  - speakerName: ChefAutomata
+    speakerExpression: Normal
+    speakerLines:
+    - ' Scanning for information status.. '
+    - 'Scanning.. '
+    - 'Scanning. '
+  - speakerName: ChefAutomata
+    speakerExpression: Positive
+    speakerLines:
+    - "Information is available.. \r\n"
+    - Landertech Industries is a company which specializes in researching and developing
+      robot engineering, it was founded 41 years ago. .
+    - The current CEO was Thomas Landersan, who happened to have lost his life during
+      the event that has happened recently
+  - speakerName: Lucas Blackwood
+    speakerExpression: Sad
+    speakerLines:
+    - Landertech Industries is a company which specializes in researching and developing
+      robot engineering, it was founded 41 years ago. .
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - Um.. Sir Blackwood, I would like to ask..
+    - 'Do you happen to have a connection with the victim?
+
+'
+  - speakerName: Lucas Blackwood
+    speakerExpression: Sad
+    speakerLines:
+    - 'Ahh.. '
+    - sorry for saddening the atmosphere....
+  - speakerName: Lucas Blackwood
+    speakerExpression: Normal
+    speakerLines:
+    - 'yes, I do have connection with him. '
+    - "I was formerly his butler who tended to the young master\u2019s daily needs"
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - Could you tell me more about him
+  - speakerName: Lucas Blackwood
+    speakerExpression: Normal
+    speakerLines:
+    - " Master was a person who acted rashly and talked without taking an account
+      of people\u2019s feelings. "
+    - "That is because he wants to act straightforward, at least that\u2019s what
+      he thinks. "
+    - Despite that, he too sulked about how he treated his employees and the people
+      around him harshly.
+    - 'I listened to him dearly despite his harsh words and tone because that was
+      my duty. '
+    - "Although one day, I did try giving him advice but he didn\u2019t take it too
+      well. "
+    - 'His turmoil skyrocketed and fired me out of the blue. I tried to calm him
+      down and rationalize his decisions, '
+    - "but his stubbornness won\u2019t take it. "
+    - So in the end, I got fired and am now currently working as a waiter in Elysia.
+  - speakerName: Lucas Blackwood
+    speakerExpression: Sad
+    speakerLines:
+    - 'It saddens me that he has to leave us in such a state.
+
+'
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - ' My condolences.. '
+    - It must be very hard for you.
+  - speakerName: Lucas Blackwood
+    speakerExpression: Normal
+    speakerLines:
+    - 'It is nothing madam, '
+    - "just an old man\u2019s fable. "
+    - Do you have any questions left?
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - Yes...
+    - when the events took place, where were you and ChefAutomata?
+  - speakerName: Lucas Blackwood
+    speakerExpression: Normal
+    speakerLines:
+    - ' I was serving another passenger who happens to be at the opposite location
+      from where the event took place, '
+    - as for ChefAutomata..
+  - speakerName: ChefAutomata
+    speakerExpression: Normal
+    speakerLines:
+    - I am programmed to be stationed in the kitchen until the train reaches its
+      destination, then I go into hibernation mode until the train has to depart
+      again.
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - ' Are you the only waiter who serves this train destination?'
+  - speakerName: Lucas Blackwood
+    speakerExpression: Normal
+    speakerLines:
+    - Yes, your assumption is correct.
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - "I see, \r\n"
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - Mind if I take a look at the kitchen?
+  - speakerName: Lucas Blackwood
+    speakerExpression: Normal
+    speakerLines:
+    - You are permitted
+  - speakerName: ChefAutomata
+    speakerExpression: Positive
+    speakerLines:
+    - Permission Granted
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - ......
+    - 'Hm?
+
+'
+    - ' What is this bottle doing in the bin?'
+  - speakerName: ChefAutomata
+    speakerExpression: Normal
+    speakerLines:
+    - 'That is a bottle for seasoning many dishes that are served on the menu. '
+    - 'As you can see, it is in the bin because it is empty.
+
+'
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - Did you used to serve Vichyssoise as well?
+  - speakerName: ChefAutomata
+    speakerExpression: Positive
+    speakerLines:
+    - Correct.
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - I see...
+  - speakerName: Lucas Blackwood
+    speakerExpression: Normal
+    speakerLines:
+    - I can assure you madam that we would not put poison on the dishes or the bottle
+      itself
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - "It\u2019s alright, I was just asking. "
+    - Thank you for your collaboration, Mr. Blackwood, ChefAutomata.
+  - speakerName: Lucas Blackwood
+    speakerExpression: Happy
+    speakerLines:
+    - It is my pleasure
+  - speakerName: ChefAutomata
+    speakerExpression: Positive
+    speakerLines:
+    - I aim to serve
+  characterInvolved:
+  - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
+  - {fileID: 11400000, guid: 642511a8ad200694d9d3ead8e87836f6, type: 2}
+  - {fileID: 11400000, guid: 0359eea51b0396941b0748d7be42aec4, type: 2}
+  clue:
+  - {fileID: 0}
+  - {fileID: 0}
+  dialogueDone: 1
+  necessaryDialogue: 1
+  choiceAvalaible: 0

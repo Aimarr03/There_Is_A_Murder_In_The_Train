@@ -86,28 +86,15 @@ MonoBehaviour:
   - speakerName: Cedric Whitestone
     speakerExpression: Angry
     speakerLines:
-    - I wasn't watching you the whole time.
-    - But given your position, you had the greatest chance to tamper with his food.
-  - speakerName: Cedric Whitestone
-    speakerExpression: Angry
-    speakerLines:
     - 'That''s conjecture. '
     - 'Anyone could have interfered with the food at any point, like during preparation
       or delivery. '
     - It's not just me who should be suspected.
-  - speakerName: Cedric Whitestone
-    speakerExpression: Angry
-    speakerLines:
-    - 'That''s conjecture. '
-    - 'Anyone could have interfered with the food at any point, like during preparation
-      or delivery. '
-    - 'Anyone could have interfered with the food at any point, like during preparation
-      or delivery. '
   - speakerName: Chloe Rutherford
     speakerExpression: Normal
     speakerLines:
-    - 'Anyone could have interfered with the food at any point, like during preparation
-      or delivery. '
+    - But Thomas experienced the effects right after returning from the restroom,
+      and you were still her!
   - speakerName: Cedric Whitestone
     speakerExpression: Angry
     speakerLines:
@@ -120,7 +107,7 @@ MonoBehaviour:
     - how would you know his name is Thomas?
     - ' And how could you be certain that he died of poison?'
   - speakerName: Chloe Rutherford
-    speakerExpression: Normal
+    speakerExpression: Shout
     speakerLines:
     - You were shouting his name when you found him collapsed and poisoned seemed
       more logical!
@@ -196,8 +183,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0f6fdf41b3537404e884de72d1826f17, type: 2}
   - {fileID: 11400000, guid: 621917a59653e224685db65720988282, type: 2}
   - {fileID: 11400000, guid: e5ce1d079da5eea4b80f77ce0e0bd1da, type: 2}
+  - {fileID: 11400000, guid: ac932c346a7bc3e48a421dad7fac111c, type: 2}
+  - {fileID: 11400000, guid: 1b3a67777c171e54b9ca3104f034d4b1, type: 2}
   clue:
   - {fileID: 11400000, guid: 9e1a95fca0939ff4e8efe13fd1fad30b, type: 2}
   - {fileID: 11400000, guid: e9b6bb547378fd443a77262de09383a9, type: 2}
-  dialogueDone: 0
+  dialogueDone: 1
   necessaryDialogue: 1
+  choiceAvalaible: 0

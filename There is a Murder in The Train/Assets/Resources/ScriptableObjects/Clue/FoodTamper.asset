@@ -17,4 +17,4 @@ MonoBehaviour:
   clueParagraphs:
   - Miss Rutherford surmised the cause was that Mr Whitestone tampered with the food
     before the autopsy happened.
-  clueImage: {fileID: 0}
+  clueImage: {fileID: 21300000, guid: ff01ff69cd4d80e49b543af1f0aac9da, type: 3}

@@ -9,9 +9,24 @@ public class GameManager : MonoBehaviour
     public StorySegment currentStorySegment;
     public Dictionary<string, GameObject> currentGameObjectHeld = new Dictionary<string, GameObject>();
     public int currentNecessaryDialogueDone;
+    public List<CurrentGameObjectHeld> currentGameObjectHeldList = new List<CurrentGameObjectHeld>();
+    [System.Serializable]
+    public class CurrentGameObjectHeld
+    {
+        public string name;
+        public GameObject gameObject;
+    }
     public void Awake()
     {
         instance = this;
+    }
+    public void Start()
+    {
+        Debug.Log(currentStorySegment != null);
+        if(currentStorySegment != null)
+        {
+            LoadNextStorySegment();
+        }
     }
     public bool CheckAllNecessaryDialogueDone()
     {
@@ -34,10 +49,20 @@ public class GameManager : MonoBehaviour
         foreach(StorySegment.DialogueEntryPair currentDialogueData in dialoguesData)
         {
             GameObject gameObject = ObjectPoolManager.instance.GetFromPool(currentDialogueData.key);
+            currentGameObjectHeld.Add(currentDialogueData.key, gameObject);
+            Debug.Log(gameObject.name);
             if(gameObject.TryGetComponent<NPCInteract>(out NPCInteract npcInterraction))
             {
+                currentDialogueData.value.dialogueDone = false;
                 npcInterraction.SetDialogue(currentDialogueData.value);
+                Debug.Log("Setting up Succesful on " + gameObject.name);
             }
         }
+        StartFirstDialogue();
+    }
+    public void StartFirstDialogue()
+    {
+        StorySegment.DialogueEntryPair firstEntry = currentStorySegment.dialogueList[0];
+        DialogueManager.instance.ChangeDialog(firstEntry.value);
     }
 }

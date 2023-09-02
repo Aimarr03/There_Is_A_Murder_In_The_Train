@@ -19,6 +19,7 @@ public class Dialogue : ScriptableObject
     public List<Clue> clue;
     public bool dialogueDone = false;
     public bool necessaryDialogue;
+    public bool choiceAvalaible;
     public bool ClueProvided()
     {
         return clue != null;

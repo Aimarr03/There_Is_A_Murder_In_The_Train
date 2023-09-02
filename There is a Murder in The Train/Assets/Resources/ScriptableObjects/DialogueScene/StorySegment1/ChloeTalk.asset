@@ -13,131 +13,131 @@ MonoBehaviour:
   m_Name: ChloeTalk
   m_EditorClassIdentifier: 
   entries:
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Normal
     speakerLines:
     - Hmm... What is it?
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Normal
     speakerLines:
     - Ahem, I wanted to talk to you. Umm... I'm Amelia Rivers, a criminology student.
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Happy
     speakerLines:
     - Ooh.. A criminology student who just happened to find herself in the heart
       of a crime scene?
     - How intriguing. Well, well, Ms. Criminology, what brings you here? To pry into
       my life, I presume?
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Happy
     speakerLines:
     - "Yes, um\u2026 I'd like to delve into your background."
     - Specifically, your whereabouts during the incident and any ties you might have
       had with the victim.
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Happy
     speakerLines:
     - Considering the circumstances, I suppose it's only natural that I'd be subjected
       to questioning.
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Sad
     speakerLines:
     - Oh, the misfortune of gaining notoriety in such a fashion.
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Happy
     speakerLines:
     - As you've probably gathered, I go by Chloe Rutherford.
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Normal
     speakerLines:
     - But for our conversation, let's settle on Ms. Rutherford, shall we?
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Sad
     speakerLines:
     - '(Doesn''t she look younger than me? Her appearance belies her demeanor, though
       appearances can be deceiving)
 
 '
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Happy
     speakerLines:
     - And... Where exactly were you when the incident occurred, Ms. Rutherford?
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Normal
     speakerLines:
     - Isn't that obvious? I was right there in the same room with the victim and
       the alleged murderer.
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Sad
     speakerLines:
     - Could you specify your exact location, please? And what occupied your attention?
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Angry
     speakerLines:
     - A bit cheeky, aren't you?
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Sad
     speakerLines:
     - 'Very well, let''s play along. I had the privilege of being seated near the
       victim''s table. '
     - a mere observer partaking in my meal and the picturesque scenery through the
       window.
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Sad
     speakerLines:
     - 'Very well, let''s play along. I had the privilege of being seated near the
       victim''s table. '
     - a mere observer partaking in my meal and the picturesque scenery through the
       window.
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Normal
     speakerLines:
     - Will that satisfy your thirst for details, Madam Criminology?
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Angry
     speakerLines:
     - Why such haste in labeling the victim's companion as the assailant?
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Happy
     speakerLines:
     - Why are you so surprised? You're the criminology expert here, right? It's a
       classic trope.
     - The one closest to the victim often ends up being the prime suspect, the person
       right across from him at the table.
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Sad
     speakerLines:
     - But has it been established beyond a shadow of a doubt that the companion is
       responsible for the victim's demise?
     - Could it not have been a result of a pre-existing condition?
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Sad
     speakerLines:
     - 'That''s outrageous, my dear. The victim was visibly distressed during the
       event. '
     - I myself was absolutely taken aback...
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Sad
     speakerLines:
     - Understood... Uh... Lastly, do you have any sort of connection with the victim?
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Shout
     speakerLines:
     - I can assure you, I had no connection with him whatsoever.
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Angry
     speakerLines:
     - Now, is this interrogation complete, or should I expect more inquisitions?
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Sad
     speakerLines:
     - Yes... Th-thank you, Ms. Rutherford, for your time and cooperation.
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Happy
     speakerLines:
     - 'Indeed. And do adjust that tone, Ms. Criminology Student. '
     - We wouldn't want to waste anyone's time with unnecessary stuttering.
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Sad
     speakerLines:
     - I'll take that into consideration.
@@ -147,5 +147,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
   clue:
   - {fileID: 11400000, guid: b93d703c1fbb61641985e76c071c8927, type: 2}
-  dialogueDone: 0
+  dialogueDone: 1
   necessaryDialogue: 1
+  choiceAvalaible: 0

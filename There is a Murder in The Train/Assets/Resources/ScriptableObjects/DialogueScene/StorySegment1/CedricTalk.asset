@@ -13,48 +13,48 @@ MonoBehaviour:
   m_Name: CedricTalk
   m_EditorClassIdentifier: 
   entries:
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Angry
     speakerLines:
     - Hm... You don't quite resemble the security personnel.
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Happy
     speakerLines:
     - I... I suppose I don't quite fit the bill, huh? Haha...
     - Um, pardon me, but I'd like to inquire about the events involving the victim.
       I was present when he was found, though I lack the full picture.
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Shout
     speakerLines:
     - And why should I entertain a stranger who isn't part of the security team?
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Sad
     speakerLines:
     - Oh... I apologize if I came across as impolite. My name is Amelia Rivers. I'm
       a criminology student who happened to be present during the incident.
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Happy
     speakerLines:
     - '"Happened to be present", you say?'
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Happy
     speakerLines:
     - Y-yes...
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Happy
     speakerLines:
     - Well, I suppose no harm can be done in indulging you, I suppose.
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Angry
     speakerLines:
     - However, let it be known that I vehemently deny any involvement in this crime.
       I swear it upon the name of my family, the Whitestones.
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Sad
     speakerLines:
     - Umm... Alright, Mr. Whitestone. Can you please describe your actions during
       the events?
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Normal
     speakerLines:
     - I was seated across from my friend. We were having lunch, a delightful Vichyssoise.
@@ -62,64 +62,64 @@ MonoBehaviour:
       meal.
     - I offered to accompany him, concerned for his health, but he declined. So,
       I stayed at my seat, awaiting his return.
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Sad
     speakerLines:
     - "When he did, he resumed eating but suddenly choked and panicked, creating
       a chaotic scene. He coughed, struggled, and then went still\u2014unconscious."
     - I was baffled, and then security arrived. You know the rest.
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Happy
     speakerLines:
     - I'm sorry, I seem to have rambled off track.
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Happy
     speakerLines:
     - Oh... no, it's alright. Your account is quite informative, and I... um... appreciate
       your willingness to share.
     - Ahem, moving on, you mentioned he's your friend, correct? Could you tell me
       more about him and your relationship?
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Happy
     speakerLines:
     - "Indeed, his name is Thomas Landersan. He's a dear friend. Our families have
       a longstanding business partnership\u2014our Whitestone and Landersan."
     - They handle production, and we handle marketing. Thomas was the head of his
       company, while I'm slated to lead the Whitestone family.
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Angry
     speakerLines:
     - Thomas Landersan... Isn't he the head of Landertech Industries?
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Happy
     speakerLines:
     - You're absolutely right, Ms. Rivers. Impressive research.
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Happy
     speakerLines:
     - Um... yes, well, you know... I try to stay informed... Ehehe.
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Angry
     speakerLines:
     - Your confidence could use some work.
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Happy
     speakerLines:
     - Ahahaa... I guess you have a point.
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Normal
     speakerLines:
     - Is there anything else you'd like to ask, Miss Rivers?
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Normal
     speakerLines:
     - No, that covers it for now. Thank you for your time and cooperation.
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Shout
     speakerLines:
     - Rest assured, I did not harm my friend. Once you dig deeper, you'll come to
       realize that.
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Sad
     speakerLines:
     - I'll keep that in mind.
@@ -130,5 +130,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a87a00005f4d36d45a754742b24360e4, type: 2}
   - {fileID: 11400000, guid: 57eb118621d49f545bc7a9f9f1c9e93b, type: 2}
   - {fileID: 11400000, guid: e0769a4dea319f749bd18282891b6296, type: 2}
-  dialogueDone: 0
+  dialogueDone: 1
   necessaryDialogue: 1
+  choiceAvalaible: 0

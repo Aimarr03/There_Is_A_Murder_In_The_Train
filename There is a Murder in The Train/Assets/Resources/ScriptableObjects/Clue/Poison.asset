@@ -17,4 +17,4 @@ MonoBehaviour:
   clueParagraphs:
   - Without Miss Rutherford explicitly stating poison, Mr Whitestone denied the accusation
     of him using poison.
-  clueImage: {fileID: 0}
+  clueImage: {fileID: 21300000, guid: ff01ff69cd4d80e49b543af1f0aac9da, type: 3}

@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: AfterAutopsy
   m_EditorClassIdentifier: 
   entries:
-  - speakerName: Officer
+  - speakerName: Officer 01
     speakerExpression: Angry
     speakerLines:
     - Everyone, thank you for your patience. We have done the autopsy and will be
       sharing the information on what we have found.
-  - speakerName: Officer
+  - speakerName: Officer 02
     speakerExpression: Normal
     speakerLines:
     - Ahem.. The victim is indeed murdered during the event. It is discovered that
@@ -26,7 +26,7 @@ MonoBehaviour:
       using.
     - The victim's name is Thomas Landersan, he is the head of the Landertech Industries.
       Until the police arrive, please remain in this area.
-  - speakerName: Officer
+  - speakerName: Officer 02
     speakerExpression: Angry
     speakerLines:
     - 'However, it seems that one of the passengers is a criminology student who
@@ -35,49 +35,49 @@ MonoBehaviour:
 '
     - I know how unprofessional that might seem, but in a case as unusual as this,
       we need all the help we can get.
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Happy
     speakerLines:
     - Huh?
-  - speakerName: Officer
+  - speakerName: Officer 02
     speakerExpression: Angry
     speakerLines:
     - "That aside, the victim\u2019s companion who happened to sit in front of him
       before and after the events remains the main suspect. "
     - With that in mind, please comply with us, we will monitor your actions from
       here on.
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Angry
     speakerLines:
     - Fine then, I will comply.
     - Be that as it may, it will only be a matter of time until the truth arises.
-  - speakerName: Chloe
+  - speakerName: Chloe Rutherford
     speakerExpression: Happy
     speakerLines:
     - 'Hmm.. big talk when fate has already decided on your demise.
 
 '
-  - speakerName: Cedric
+  - speakerName: Cedric Whitestone
     speakerExpression: Shout
     speakerLines:
     - 'We shall see for ourselves, though I am certain that I am in the right.
 
 '
-  - speakerName: Officer
+  - speakerName: Officer 01
     speakerExpression: Normal
     speakerLines:
     - Miss Rivers, as promised we will give you detailed information regarding the
       victim's body.
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Normal
     speakerLines:
     - Okay, please do share what you have found, officer.
-  - speakerName: Officer
+  - speakerName: Officer 01
     speakerExpression: Happy
     speakerLines:
     - Right, setting aside the information we have provided towards the public, we
       would like to discuss with you regarding whatever surrounds this case.
-  - speakerName: Officer
+  - speakerName: Officer 01
     speakerExpression: Angry
     speakerLines:
     - Ahem.. On the scene, we have found more utensils than there should be.
@@ -93,19 +93,19 @@ MonoBehaviour:
     - "The victim himself isn\u2019t covered in any bruises so a fight most certainly
       didn\u2019t occur before the fact. Most likely that the victim made a scene
       after the poison took effect."
-  - speakerName: Officer
+  - speakerName: Officer 01
     speakerExpression: Happy
     speakerLines:
     - 'That is all regarding the autopsy. All this leads to the main suspect. Is
       there anything you would like to know more about?
 
 '
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Happy
     speakerLines:
     - "No.. that will be enough, let me gather more information first, then I\u2019ll
       gather the people to unravel the truth."
-  - speakerName: Officer
+  - speakerName: Officer 01
     speakerExpression: Happy
     speakerLines:
     - As you wish, best of luck, Miss Rivers!
@@ -118,3 +118,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 33fd8ffebd5c6a546a2fd8de9b881e6e, type: 2}
   dialogueDone: 0
   necessaryDialogue: 0
+  choiceAvalaible: 0

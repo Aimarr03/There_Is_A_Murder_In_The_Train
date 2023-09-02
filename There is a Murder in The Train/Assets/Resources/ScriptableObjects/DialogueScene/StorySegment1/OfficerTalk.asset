@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: OfficerTalk
   m_EditorClassIdentifier: 
   entries:
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Normal
     speakerLines:
     - "Umm.. excuse me sir, would you mind if I take a look on the investigation?\r"
-  - speakerName: Officer
+  - speakerName: Officer 01
     speakerExpression: Angry
     speakerLines:
     - 'I am sorry, Miss, but please refrain from interfere with our work.
 
 '
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Happy
     speakerLines:
     - 'Oh.. I was wondering if I can help you investigate the case. '
@@ -31,40 +31,40 @@ MonoBehaviour:
       to pinpoint the truth behind this.
 
 '
-  - speakerName: Officer
+  - speakerName: Officer 01
     speakerExpression: Normal
     speakerLines:
     - How about you show your ID first, Miss.
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Sad
     speakerLines:
     - 'I see.. Umm.. here you go.
 
 '
-  - speakerName: Officer
+  - speakerName: Officer 02
     speakerExpression: Happy
     speakerLines:
     - "Hmm.. I would know that badge even if I was half blind. So you\u2019re part
       of that university, huh."
     - "We do need all the help we can get in this case, the guys we have here aren\u2019t
       particularly well versed in that area."
-  - speakerName: Officer
+  - speakerName: Officer 01
     speakerExpression: Sad
     speakerLines:
     - 'Normally, we would not advise you to interfere with the autopsy. However,
       we will tell you how much info we have gathered after the autopsy. '
-  - speakerName: Officer
+  - speakerName: Officer 02
     speakerExpression: Happy
     speakerLines:
     - "Why don\u2019t you talk with the people in this area first, Miss Rivers."
-  - speakerName: Amelia
+  - speakerName: Amelia Rivers
     speakerExpression: Happy
     speakerLines:
     - You will? Thank you!
     - 'Alright, please notify me when you are done with the autopsy.
 
 '
-  - speakerName: Officer
+  - speakerName: Officer 01
     speakerExpression: Happy
     speakerLines:
     - "Don\u2019t you worry.\r\n"
@@ -72,5 +72,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
   - {fileID: 11400000, guid: 0ad991b17b29190409adde77a6706666, type: 2}
   clue: []
-  dialogueDone: 0
+  dialogueDone: 1
   necessaryDialogue: 1
+  choiceAvalaible: 0

@@ -13,7 +13,15 @@ MonoBehaviour:
   m_Name: Story Segmen 02
   m_EditorClassIdentifier: 
   dialogueList:
-  - key: TestNPC
-    value: {fileID: 11400000, guid: 42d471f0b36d3f7448b3c012abb6d3a8, type: 2}
-  recordDialogueNecessaryDone: 0
-  nextGameScene: {fileID: 0}
+  - key: NPC 05
+    value: {fileID: 11400000, guid: 79ddec0e06196a14982e71e3ea5972b9, type: 2}
+  - key: NPC 01
+    value: {fileID: 11400000, guid: e284f9f876164c94a885f48a2c694446, type: 2}
+  - key: Chloe Rutherford
+    value: {fileID: 11400000, guid: 6757c492a9752864d9128020e3627c8b, type: 2}
+  - key: Thomas Landersan
+    value: {fileID: 11400000, guid: c67014cd0b4f7f846b0da0babe566d06, type: 2}
+  - key: Lucas Blackwood
+    value: {fileID: 11400000, guid: 4f993fe607001cc4fa91fc9283922fb3, type: 2}
+  recordDialogueNecessaryDone: 1
+  nextGameScene: {fileID: 11400000, guid: 2e26ff409acc00448a36802bf3ca9abb, type: 2}
