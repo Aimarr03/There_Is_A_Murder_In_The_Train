@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cefb7dc902762409e7819341c4ea9f, type: 3}
+  m_Name: Ending2Cedric
+  m_EditorClassIdentifier: 
+  entries:
+  - speakerName: Amelia Rivers
+    speakerExpression: Shout
+    speakerLines:
+    - Cedric Whitestone, you are under suspicion for the murder of Thomas Landersan.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Shout
+    speakerLines:
+    - Me? Accused of murder? This is madness!
+  - speakerName: Chloe Rutherford
+    speakerExpression: Happy
+    speakerLines:
+    - Well, well, looks like our detective finally cracked the case.
+    - And she's not too shabby at all. Took you long enough to realize he was the
+      killer. It was obvious from the start after all.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Angry
+    speakerLines:
+    - Enough of this nonsense! I won't stand here and be accused unjustly.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Normal
+    speakerLines:
+    - Oh, come on, Cedric. You're not going to argue with our detective's expertise,
+      are you?
+  - speakerName: Cedric Whitestone
+    speakerExpression: Shout
+    speakerLines:
+    - There is zero thought put into that accusation! Why would I kill my friend?
+      Our partnership was mutually beneficial!
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - Mr. Whitestone, there's more to it than meets the eye. I've found a motive
+      behind this.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Happy
+    speakerLines:
+    - Do tell, Ms. detective. I'm all ears.
+  - speakerName: Amelia Rivers
+    speakerExpression: Angry
+    speakerLines:
+    - Your business practices, Mr. Whitestone, were ruthless. You manipulated the
+      partnership between your family and the Landersans.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Sad
+    speakerLines:
+    - So, Cedric, you were profiting at the expense of the Landersans?
+  - speakerName: Cedric Whitestone
+    speakerExpression: Angry
+    speakerLines:
+    - This is absurd! I said our partnership was always mutually beneficial.
+    - Such a statement is baseless beyond measure!
+  - speakerName: Amelia Rivers
+    speakerExpression: Angry
+    speakerLines:
+    - But then, things changed. Thomas saw through your tactics. He realized you
+      were exploiting his company and manipulating market prices.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Shout
+    speakerLines:
+    - Senseless drivel! As I've said you have no evidence to support these claims.
+  - speakerName: Amelia Rivers
+    speakerExpression: Shout
+    speakerLines:
+    - The poison, the same poison used in your favorite Vichyssoise, a dish you ordered.
+      The poison that took Thomas's life.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Happy
+    speakerLines:
+    - It looks like you're in quite the predicament.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Shout
+    speakerLines:
+    - I won't accept this. I won't accept any of this! I'm innocent!
+  - speakerName: Lucas Blackwood
+    speakerExpression: Sad
+    speakerLines:
+    - Master Whitestone, is what she said the truth?
+  - speakerName: Cedric Whitestone
+    speakerExpression: Angry
+    speakerLines:
+    - No, of course not! This is absurd!
+  - speakerName: Chloe Rutherford
+    speakerExpression: Happy
+    speakerLines:
+    - Oh, for the love of--Please just stop deflecting and answer the question. It'll
+      be easier for everyone involved.
+  - speakerName: Officer 01
+    speakerExpression: Shout
+    speakerLines:
+    - Let's maintain order here. If our detective has evidence, then let's hear it.
+  - speakerName: Amelia Rivers
+    speakerExpression: Normal
+    speakerLines:
+    - Thank you, officer. The evidence points to Mr. Whitestone's involvement in
+      the poisoning.
+  - speakerName: Lucas Blackwood
+    speakerExpression: Sad
+    speakerLines:
+    - And what of the poison?
+  - speakerName: Amelia Rivers
+    speakerExpression: Angry
+    speakerLines:
+    - The poison was traced back to a confidential recipe, one that had been tampered
+      with by a scientist you had fired, Mr. Whitestone. This poison was designed
+      exclusively to target Thomas.
+  - speakerName: Cedric Whitestone
+    speakerExpression: Angry
+    speakerLines:
+    - This is an unfathomable fabrication! You all should be ashamed!
+  - speakerName: Chloe Rutherford
+    speakerExpression: Happy
+    speakerLines:
+    - "Oh sweet Sir Cedric, you\u2019ve hit the ground and even started to dig!"
+  - speakerName: Officer 01
+    speakerExpression: Sad
+    speakerLines:
+    - Let's all remain calm here. We'll need to investigate further.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Happy
+    speakerLines:
+    - "Well well, Amelia, you\u2019ve certainly made quite the revelation."
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - I didn't expect it to unfold like this.
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - I didn't expect it to unfold like this.
+  - speakerName: Chloe Rutherford
+    speakerExpression: Happy
+    speakerLines:
+    - Ah, the mystery-solving prodigy strikes true, I pray your future of solving
+      crimes will be ever so bright!
+  - speakerName: Amelia Rivers
+    speakerExpression: Happy
+    speakerLines:
+    - Well, it's more about finding out the truth. Haha.
+  - speakerName: Lucas Blackwood
+    speakerExpression: Sad
+    speakerLines:
+    - ...
+  - speakerName: Amelia Rivers
+    speakerExpression: Sad
+    speakerLines:
+    - ...
+  - speakerName: Chloe Rutherford
+    speakerExpression: Normal
+    speakerLines:
+    - Hmm?
+  characterInvolved:
+  - {fileID: 11400000, guid: 1a7167a07875d4f479b6f9baba69a401, type: 2}
+  - {fileID: 11400000, guid: 993f337de84ed3846b8d72bdc77862a5, type: 2}
+  - {fileID: 11400000, guid: 0358648bdb3899f40be6a1dc45890e59, type: 2}
+  - {fileID: 11400000, guid: 642511a8ad200694d9d3ead8e87836f6, type: 2}
+  - {fileID: 11400000, guid: 0ad991b17b29190409adde77a6706666, type: 2}
+  clue: []
+  dialogueDone: 0
+  necessaryDialogue: 0
+  choiceAvalaible: 0
