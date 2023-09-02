@@ -119,7 +119,6 @@ public class DialogueManager : MonoBehaviour
             {
                 ClueManager.instance.ClueButton.gameObject.SetActive(true);
                 StartCoroutine(EndingManager.instance.FadeTo(20f, 12.5f));
-
             }
         }
         return lastConversation;

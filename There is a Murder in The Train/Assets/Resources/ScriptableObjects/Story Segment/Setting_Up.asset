@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueList: []
   recordDialogueNecessaryDone: 0
-  nextGameScene: {fileID: 11400000, guid: e3933fc07f79b5a4fa20074e884d2dce, type: 2}
+  nextGameScene: {fileID: 11400000, guid: c3a830faa2505074088aceca29b141af, type: 2}
