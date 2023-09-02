@@ -60,6 +60,7 @@ public class DialogueManager : MonoBehaviour
         {
             if (!currentDialogueScene.choiceAvalaible)
             {
+                
                 indexLine = -1;
                 currentDialogueEntry = currentDialogueScene.entries[indexConversation+1];
                 Character currentCharacter = CharacterManager.instance.GetCharacter(currentDialogueEntry.speakerName);
@@ -118,6 +119,7 @@ public class DialogueManager : MonoBehaviour
     }
     public void PlayNextLine()
     {
+        StopCoroutine(TypeSentence(currentDialogueEntry.speakerLines[indexLine]));
         StartCoroutine(TypeSentence(currentDialogueEntry.speakerLines[++indexLine]));
     }
     IEnumerator TypeSentence(string sentence)
