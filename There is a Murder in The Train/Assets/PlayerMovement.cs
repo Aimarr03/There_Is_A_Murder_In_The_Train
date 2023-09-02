@@ -10,22 +10,41 @@ public class PlayerMovement : MonoBehaviour
     float horizontal;
     float vertical;
     public bool status = true;
+    public bool facingRight = true;
+    [SerializeField]public Animator animator;
 
-    [SerializeField] public float runSpeed = 20.0f;
+    [SerializeField] public float runSpeed = 0.1f;
 
     void Start ()
     {
        body = GetComponent<Rigidbody2D>(); 
     }
-
+    Vector2 mvmnt;
 
     private void Update()
     {
         if (status)
         {
-            horizontal = Input.GetAxisRaw("Horizontal");
-            vertical = Input.GetAxisRaw("Vertical");
-            body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
+            mvmnt.x = Input.GetAxisRaw("Horizontal");
+            mvmnt.y = Input.GetAxisRaw("Vertical");
+            if(mvmnt.x > 0 && !facingRight)
+                Flip();
+            else if(mvmnt.x < 0 && facingRight)
+                Flip();
+            animator.SetFloat("horizontal", mvmnt.x);
+            animator.SetFloat("vertical", mvmnt.y);
+            animator.SetFloat("velocity", mvmnt.sqrMagnitude);
         }
+    }
+    void FixedUpdate()
+    {
+            body.MovePosition(body.position + (mvmnt * runSpeed));
+    }
+    void Flip ()
+    {
+        facingRight = !facingRight;
+        Vector3 thisScale = transform.localScale;
+        thisScale.x *= -1;
+        transform.localScale = thisScale;
     }  
 }
